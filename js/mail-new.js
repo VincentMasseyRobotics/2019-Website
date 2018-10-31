@@ -23,7 +23,7 @@ $(document).ready(function () {
                         swal({
                             type: 'success',
                             title: 'Subscribed!',
-                            html: 'Get ready for the latest updates about MasseyHacks!<br>(' + email.val() + ')'
+                            html: 'Get ready for the latest updates about Mustangs 4903!<br>(' + email.val() + ')'
                         });
                         email.val("");
 
