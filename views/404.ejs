@@ -1,0 +1,70 @@
+<!--
+(C) 2018-2019 MASSEYHACKS TEAM
+Developed by: Henry Tu, Ryan Zhang, David Hui, James Xu
+-->
+<!DOCTYPE html>
+<html lang="en">
+
+<% include ../components/header %>
+
+<body>
+
+<img src="images/slide/23.jpg" width="0" height="0" style="display: none; position: absolute; top: -20px">
+
+<div id="cover" class="wrapper">
+
+    <!-- Cover -->
+    <section id="header" class="slide changeable" style="background-color: black; background-image: url(images/bg.png);">
+
+        <!--
+        <video id="background-video" autoplay muted loop oncontextmenu="return false;" style="width: auto; height: 100vh; right: 0; bottom: 0; position: absolute;">
+            <source src="images/wavy.mp4" type="video/mp4">
+        </video>
+        -->
+
+        <% include ../components/navbar %>
+
+
+        <div style="background-color: rgba(0, 0, 0, 0.6); height: 100%">
+
+            <% include ../components/overlay %>
+
+            <div style="min-height: 100%; z-index: 600;" class="container">
+
+                <div id="cover-spacer"></div>
+                <div class="cover-content">
+
+                    <p id="main-caption">
+                        404 Page not found
+                    </p>
+
+
+                </div>
+
+
+            </div>
+
+            <div id="mouse" style="width: 100%; height: 100%; position: absolute; margin: auto; left: calc(50% - 18px) ; right: 0; bottom: 0; top: 160%;">
+                <div class="mousey">
+                    <div class="scroller"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="quote-block" style="background-image: url('images/quote.png');">
+        <div class="quote-block-inner">
+            <div style="height: 50%; width: 100%"></div>
+            <blockquote class="blockquote text-center">
+                <p class="mb-0">"Vincent Massey’s aim is to allow people with different interests to come together and achieve a common goal with teamwork and social communication.”</p>
+                <!--<footer class="blockquote-footer">A wise man</footer>-->
+            </blockquote>
+        </div>
+    </section>
+
+    <% include ../components/footer %>
+
+</div>
+</body>
+
+</html>

@@ -1,0 +1,114 @@
+<!--
+(C) 2018-2019 MASSEYHACKS TEAM
+Developed by: Henry Tu, Ryan Zhang, David Hui, James Xu
+-->
+<!DOCTYPE html>
+<html lang="en">
+
+<% include ../components/header %>
+
+<body>
+
+<img src="images/slide/23.jpg" width="0" height="0" style="display: none; position: absolute; top: -20px">
+
+<div id="cover" class="wrapper">
+
+    <!-- Cover -->
+    <section id="header" class="slide changeable" style="background-color: black; background-image: url(images/bg.png);">
+
+        <!--
+        <video id="background-video" autoplay muted loop oncontextmenu="return false;" style="width: auto; height: 100vh; right: 0; bottom: 0; position: absolute;">
+            <source src="images/wavy.mp4" type="video/mp4">
+        </video>
+        -->
+
+        <% include ../components/navbar %>
+
+
+        <div style="background-color: rgba(0, 0, 0, 0.6); height: 100%">
+
+            <% include ../components/overlay %>
+
+            <div style="min-height: 100%; z-index: 600;" class="container">
+
+                <div id="cover-spacer"></div>
+                <div class="cover-content">
+
+                    <p id="main-caption">
+                        Mustangsadsfdsaf 4903
+                    </p>
+
+                    <p id="date-time">
+                        Vincent Massey S.S. Robotics Team
+                    </p>
+
+                    <br>
+
+                    <p id="time-caption">Countdown to build season</p>
+                    <p id="time-left">
+                        00:00:00:00
+                    </p>
+                    <!--
+                    <label for="mce-EMAIL" style="font-weight: normal; font-family: Avenir; font-size: 1.2em; text-align: left">Subscribe to our mailing list for updates!</label>
+                    <form id="mc_embed_signup" onsubmit="php/emailSub.php">
+                        <input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="hacker@hackermail.io" required>
+                        <input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button" style="color: black;">
+                    </form>-->
+                </div>
+
+                <!--
+                <iframe id="cover-video" src="https://www.youtube.com/embed/RAhe4UmL4pk?ecver=2&rel=0" style="position:absolute;width:40em;height:22.5em; max-width: 1920px; max-height: 1080px; transform: translateY(-50%)" width="879" height="360" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                -->
+            </div>
+
+            <div id="mouse" style="width: 100%; height: 100%; position: absolute; margin: auto; left: calc(50% - 18px) ; right: 0; bottom: 0; top: 160%;">
+                <div class="mousey">
+                    <div class="scroller"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About -->
+    <section id="about" class="slide slide-free container-fluid changeable">
+        <div id="mh-returns" class="container">
+            <div class="row" style="align-items: center;">
+                <div class="col-md-5" id="description">
+
+                    <h3 style="font-family: 'Avenir Next Bold'; text-align: center;">What is Mustangs 4903?</h3>
+                    <br>
+                    <p style="text-align: left;">
+                        we build robots and stuff idk
+                    </p>
+
+                </div>
+                <div class="col-md-7">
+                    <div class="img-wrapper shadow" id="about-image">
+                        <img src="images/robot.png" class="img-fluid scaleonhover" style="width: 100%">
+                    </div>
+                </div>
+            </div>
+
+            <!--
+            <iframe id="cover-video" src="https://www.youtube.com/embed/RAhe4UmL4pk?ecver=2&rel=0" style="width:40em;height:22.5em; max-width: 1920px; max-height: 1080px; margin-top: 75px;" width="879" height="360" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+            -->
+
+        </div>
+    </section>
+
+    <section class="quote-block" style="background-image: url('images/quote.png');">
+        <div class="quote-block-inner">
+            <div style="height: 50%; width: 100%"></div>
+            <blockquote class="blockquote text-center">
+                <p class="mb-0">"Vincent Massey’s aim is to allow people with different interests to come together and achieve a common goal with teamwork and social communication.”</p>
+                <!--<footer class="blockquote-footer">A wise man</footer>-->
+            </blockquote>
+        </div>
+    </section>
+
+    <% include ../components/footer %>
+
+</div>
+</body>
+
+</html>
