@@ -1,0 +1,24 @@
+{
+  "name": "frc4903-website",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/VincentMasseyRobotics/Website.git"
+  },
+  "author": "Henry Tu (https://github.com/henrytwo)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/VincentMasseyRobotics/Website/issues"
+  },
+  "homepage": "https://github.com/VincentMasseyRobotics/Website#readme",
+  "dependencies": {
+    "ejs": "^2.6.1",
+    "express": "^4.16.4",
+    "html": "^1.0.0"
+  }
+}

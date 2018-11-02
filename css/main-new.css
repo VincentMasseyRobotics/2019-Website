@@ -378,6 +378,13 @@ Courtesy of https://codepen.io/2xsamurai/pen/WwmjKQ*/
     line-height: 1em;
 }
 
+#time-left {
+    font-weight: bold;
+    font-size: 4em;
+    text-align: left;
+    line-height: 1em;
+}
+
 /* Custom CSS */
 #about-image {
     transform: translateY(-3%);
