@@ -116,24 +116,34 @@ Developed by: Henry Tu, Ryan Zhang, David Hui, James Xu
         return str;
     }
 
-    var countDownDate = new Date("Jan 6, 2019 10:00:00").getTime();
-    // Update the count down every 1 second
+    var buildSeasonStart = new Date("Jan 5, 2019 10:00:00").getTime();
+    var buildSeasonEnd = new Date("Feb 15, 2019 23:59:59").getTime();
+    //var buildSeasonStart = new Date("Nov 2, 2018 22:01:00").getTime();
+    //var buildSeasonEnd = new Date("Nov 2, 2018 22:01:30").getTime();
+
     var x = setInterval(function() {
-        // Get todays date and time
+
         var now = new Date().getTime();
-        // Find the distance between now an the count down date
+
+        var countDownDate = buildSeasonStart - now > 0 ? buildSeasonStart : buildSeasonEnd;
+
         var distance = countDownDate - now;
-        // Time calculations for days, hours, minutes and seconds
-        var days = Math.floor(distance / (1000 * 60 * 60 * 24));
-        var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-        var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
-        var seconds = Math.floor((distance % (1000 * 60)) / 1000);
-        // Display the result in the element with id="demo"
-        document.getElementById("time-left").innerHTML = "<b>" + pad(days, 2) + ":" + pad(hours, 2) + ":" + pad(minutes, 2) + ":" + pad(seconds, 2) + "</b>";
-        // If the count down is finished, write some text
+
+        if (buildSeasonStart - now <= 0 && buildSeasonEnd - now > 0) {
+            document.getElementById("time-caption").innerHTML = "Time left in build season";
+        } else if (buildSeasonEnd - now <= 0) {
+            document.getElementById("time-caption").innerHTML = "Build Season is Over!";
+        }
+
         if (distance < 0) {
             clearInterval(x);
-            document.getElementById("time-left").innerHTML = "";
+        } else {
+            var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+            var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+            var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+            var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+            document.getElementById("time-left").innerHTML = "<b>" + pad(days, 2) + ":" + pad(hours, 2) + ":" + pad(minutes, 2) + ":" + pad(seconds, 2) + "</b>";
         }
     }, 1000);
 
