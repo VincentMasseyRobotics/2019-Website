@@ -393,6 +393,14 @@ Courtesy of https://codepen.io/2xsamurai/pen/WwmjKQ*/
     padding-bottom: 150px;
 }
 
+/* Error */
+.error-caption {
+    padding-top: 20px;
+    font-size: 3em !important;
+    text-align: center !important;
+}
+
+
 /* Footer */
 #footer {
     height: 350px;
@@ -498,6 +506,10 @@ Courtesy of https://codepen.io/2xsamurai/pen/WwmjKQ*/
 
 @media screen and (max-width: 995px){
 
+    .error-caption {
+        font-size: 1.8em !important;
+    }
+
     #mouse {
         display: none;
     }
@@ -559,11 +571,6 @@ Courtesy of https://codepen.io/2xsamurai/pen/WwmjKQ*/
 
     .nav-docked {
         margin-top: 10px;
-    }
-
-    .nav-active {
-        height: 50px;
-        padding-top: 0px;
     }
 
     #main-caption {
