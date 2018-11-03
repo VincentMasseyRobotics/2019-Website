@@ -1,0 +1,26 @@
+{
+  "name": "robotics-website",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "dependencies": {
+    "ejs": "^2.6.1",
+    "express": "^4.16.4",
+    "js": "^0.1.0",
+    "path": "^0.12.7"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/VincentMasseyRobotics/Website.git"
+  },
+  "author": "Henry Tu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/VincentMasseyRobotics/Website/issues"
+  },
+  "homepage": "https://github.com/VincentMasseyRobotics/Website#readme"
+}
