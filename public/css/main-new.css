@@ -384,7 +384,7 @@ Courtesy of https://codepen.io/2xsamurai/pen/WwmjKQ*/
 
 .page-caption {
     font-weight: bold;
-    font-size: 5em !important;
+    font-size: 4.5em !important;
     text-align: center !important;
     line-height: 1em !important;
 }
@@ -522,6 +522,14 @@ Courtesy of https://codepen.io/2xsamurai/pen/WwmjKQ*/
 }
 
 @media screen and (max-width: 995px){
+
+    #time-left {
+        font-size: 3.5em !important;
+    }
+
+    .page-caption {
+        font-size: 3.5em !important;
+    }
 
     .error-caption {
         font-size: 1.8em !important;
