@@ -2,264 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ea12e439-49ba-4a16-b8b7-7697e582d397" name="Default" comment="EJS router">
-      <change beforePath="" afterPath="$PROJECT_DIR$/app.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/components/footer.ejs" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/components/header.ejs" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/components/navbar.ejs" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/components/overlay.ejs" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/.gitignore" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/.idea/MasseyHacks-Website-New.iml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/.idea/inspectionProfiles/Project_Default.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/.idea/modules.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/.idea/php.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/.idea/vcs.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/.idea/workspace.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/403.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/404.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/5xx.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/CNAME" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/android-chrome-192x192.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/android-chrome-512x512.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/apple-touch-icon.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/browserconfig.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/css/hamburgers.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/css/mailchimp-new.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/css/main-new.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/css/package.json" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/facebook.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/favicon-16x16.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/favicon-32x32.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/favicon.ico" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/files/sponsorship.pdf" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/fonts/Berthold Akzidenz Grotesk BE Regular.otf" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/fonts/Berthold Akzidenz Grotesk Bold.otf" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/fonts/Futura Bold.otf" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/fonts/Futura Light Regular.otf" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/fonts/Raleway-Black.ttf" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/fonts/Raleway-BlackItalic.ttf" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/fonts/Raleway-Bold.ttf" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/fonts/Raleway-BoldItalic.ttf" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/fonts/Raleway-ExtraBold.ttf" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/fonts/Raleway-ExtraBoldItalic.ttf" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/fonts/Raleway-ExtraLight.ttf" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/fonts/Raleway-ExtraLightItalic.ttf" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/fonts/Raleway-Italic.ttf" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/fonts/Raleway-Light.ttf" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/fonts/Raleway-LightItalic.ttf" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/fonts/Raleway-Medium.ttf" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/fonts/Raleway-MediumItalic.ttf" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/fonts/Raleway-Regular.ttf" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/fonts/Raleway-SemiBold.ttf" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/fonts/Raleway-SemiBoldItalic.ttf" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/fonts/Raleway-Thin.ttf" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/fonts/Raleway-ThinItalic.ttf" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/fonts/SIL Open Font License.txt" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/fonts/agenda/AgendaBold.ttf" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/fonts/agenda/AgendaLight.ttf" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/fonts/agenda/AgendaMedium.ttf" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/fonts/agenda/Agenda_2375.ttf" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/fonts/avenir-next-bold.ttf" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/fonts/avenir.otf" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/fonts/avenir2.ttf" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/images/bg.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/images/first_frame.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/images/logo/logo.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/images/logo/logoframe.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/images/quote.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/images/robot.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/images/slide/1.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/images/slide/10.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/images/slide/11.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/images/slide/12.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/images/slide/13.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/images/slide/14.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/images/slide/15.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/images/slide/16.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/images/slide/17.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/images/slide/18.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/images/slide/19.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/images/slide/2.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/images/slide/20.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/images/slide/21.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/images/slide/22.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/images/slide/23.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/images/slide/3.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/images/slide/4.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/images/slide/5.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/images/slide/6.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/images/slide/7.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/images/slide/8.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/images/slide/9.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/images/sponsors/balsamiq.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/images/sponsors/balsamiq.svg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/images/sponsors/brave.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/images/sponsors/digitalocean.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/images/sponsors/digitalocean.svg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/images/sponsors/discord.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/images/sponsors/edsby.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/images/sponsors/facebook.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/images/sponsors/github-logo.svg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/images/sponsors/google.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/images/sponsors/hackthenorth.svg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/images/sponsors/htv_logo.svg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/images/sponsors/ieee.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/images/sponsors/mlh-logo-color.svg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/images/sponsors/node.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/images/sponsors/optimistriverside.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/images/sponsors/radix.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/images/sponsors/stclair.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/images/sponsors/sticker-mule.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/images/sponsors/sublime.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/images/sponsors/uwindsor.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/images/sponsors/wetech.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/images/wavy.mp4" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/instagram.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/js/index-new.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/js/mail-new.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/js/sweetalert2.all.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/js/underscore-min.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/licence.txt" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/manifest.json" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/mstile-144x144.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/mstile-150x150.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/mstile-310x150.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/mstile-310x310.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/mstile-70x70.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/package-lock.json" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/package.json" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/registrationError.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/safari-pinned-tab.svg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/site.webmanifest" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/twitter.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/views/404.ejs" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/views/index.ejs" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/views/thing.ejs" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/MasseyHacks-Website-New.iml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/403.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/404.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/5xx.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/CNAME" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/android-chrome-192x192.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/android-chrome-512x512.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/apple-touch-icon.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/browserconfig.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/css/hamburgers.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/css/mailchimp-new.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/css/main-new.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/css/package.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/facebook.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/favicon-16x16.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/favicon-32x32.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/favicon.ico" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/files/sponsorship.pdf" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/fonts/Berthold Akzidenz Grotesk BE Regular.otf" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/fonts/Berthold Akzidenz Grotesk Bold.otf" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/fonts/Futura Bold.otf" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/fonts/Futura Light Regular.otf" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/fonts/Raleway-Black.ttf" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/fonts/Raleway-BlackItalic.ttf" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/fonts/Raleway-Bold.ttf" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/fonts/Raleway-BoldItalic.ttf" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/fonts/Raleway-ExtraBold.ttf" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/fonts/Raleway-ExtraBoldItalic.ttf" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/fonts/Raleway-ExtraLight.ttf" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/fonts/Raleway-ExtraLightItalic.ttf" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/fonts/Raleway-Italic.ttf" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/fonts/Raleway-Light.ttf" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/fonts/Raleway-LightItalic.ttf" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/fonts/Raleway-Medium.ttf" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/fonts/Raleway-MediumItalic.ttf" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/fonts/Raleway-Regular.ttf" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/fonts/Raleway-SemiBold.ttf" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/fonts/Raleway-SemiBoldItalic.ttf" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/fonts/Raleway-Thin.ttf" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/fonts/Raleway-ThinItalic.ttf" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/fonts/SIL Open Font License.txt" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/fonts/agenda/AgendaBold.ttf" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/fonts/agenda/AgendaLight.ttf" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/fonts/agenda/AgendaMedium.ttf" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/fonts/agenda/Agenda_2375.ttf" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/fonts/avenir-next-bold.ttf" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/fonts/avenir.otf" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/fonts/avenir2.ttf" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/footer.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/images/bg.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/images/first_frame.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/images/logo/logo.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/images/logo/logoframe.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/images/quote.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/images/robot.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/images/slide/1.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/images/slide/10.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/images/slide/11.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/images/slide/12.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/images/slide/13.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/images/slide/14.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/images/slide/15.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/images/slide/16.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/images/slide/17.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/images/slide/18.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/images/slide/19.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/images/slide/2.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/images/slide/20.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/images/slide/21.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/images/slide/22.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/images/slide/23.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/images/slide/3.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/images/slide/4.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/images/slide/5.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/images/slide/6.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/images/slide/7.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/images/slide/8.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/images/slide/9.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/images/sponsors/balsamiq.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/images/sponsors/balsamiq.svg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/images/sponsors/brave.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/images/sponsors/digitalocean.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/images/sponsors/digitalocean.svg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/images/sponsors/discord.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/images/sponsors/edsby.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/images/sponsors/facebook.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/images/sponsors/github-logo.svg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/images/sponsors/google.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/images/sponsors/hackthenorth.svg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/images/sponsors/htv_logo.svg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/images/sponsors/ieee.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/images/sponsors/mlh-logo-color.svg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/images/sponsors/node.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/images/sponsors/optimistriverside.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/images/sponsors/radix.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/images/sponsors/stclair.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/images/sponsors/sticker-mule.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/images/sponsors/sublime.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/images/sponsors/uwindsor.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/images/sponsors/wetech.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/images/wavy.mp4" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/index.ejs" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/instagram.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/js/index-new.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/js/mail-new.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/js/sweetalert2.all.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/js/underscore-min.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/licence.txt" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/manifest.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/mstile-144x144.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/mstile-150x150.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/mstile-310x150.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/mstile-310x310.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/mstile-70x70.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/navbar.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/overlay.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app.js" afterPath="$PROJECT_DIR$/app.js" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" afterPath="$PROJECT_DIR$/package-lock.json" />
-      <change beforePath="$PROJECT_DIR$/package.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/registrationError.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/safari-pinned-tab.svg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/site.webmanifest" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/twitter.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/views/index.ejs" afterPath="$PROJECT_DIR$/views/index.ejs" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -276,8 +22,28 @@
       <file leaf-file-name="app.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="252">
-              <caret line="14" column="28" lean-forward="false" selection-start-line="14" selection-start-column="28" selection-end-line="14" selection-end-column="28" />
+            <state relative-caret-position="18">
+              <caret line="1" column="35" lean-forward="true" selection-start-line="1" selection-start-column="35" selection-end-line="1" selection-end-column="35" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="package-lock.json" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/package-lock.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="54">
+              <caret line="404" column="0" lean-forward="false" selection-start-line="404" selection-start-column="0" selection-end-line="404" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="firebase.json" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/firebase.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="144">
+              <caret line="8" column="3" lean-forward="false" selection-start-line="8" selection-start-column="3" selection-end-line="8" selection-end-column="3" />
               <folding />
             </state>
           </provider>
@@ -286,8 +52,18 @@
       <file leaf-file-name="index.ejs" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/views/index.ejs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="18">
-              <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+            <state relative-caret-position="666">
+              <caret line="37" column="41" lean-forward="false" selection-start-line="37" selection-start-column="41" selection-end-line="37" selection-end-column="41" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="navbar.ejs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/components/navbar.ejs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="126">
+              <caret line="7" column="85" lean-forward="false" selection-start-line="7" selection-start-column="85" selection-end-line="7" selection-end-column="85" />
               <folding />
             </state>
           </provider>
@@ -357,8 +133,10 @@
         <option value="$PROJECT_DIR$/views/footer.html" />
         <option value="$PROJECT_DIR$/views/header.html" />
         <option value="$PROJECT_DIR$/views/thing.ejs" />
-        <option value="$PROJECT_DIR$/views/index.ejs" />
         <option value="$PROJECT_DIR$/views/404.ejs" />
+        <option value="$PROJECT_DIR$/views/index.ejs" />
+        <option value="$PROJECT_DIR$/components/navbar.ejs" />
+        <option value="$PROJECT_DIR$/package-lock.json" />
         <option value="$PROJECT_DIR$/app.js" />
       </list>
     </option>
@@ -378,14 +156,14 @@
     </include_path>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="51" />
-    <option name="y" value="56" />
-    <option name="width" value="1356" />
-    <option name="height" value="576" />
+    <option name="x" value="146" />
+    <option name="y" value="182" />
+    <option name="width" value="960" />
+    <option name="height" value="578" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
-    <navigator currentView="ProjectPane" proportions="" version="1">
+    <navigator proportions="" version="1">
       <flattenPackages />
       <showMembers />
       <showModules />
@@ -398,26 +176,7 @@
       <manualOrder />
       <foldersAlwaysOnTop value="true" />
     </navigator>
-    <panes>
-      <pane id="Scope" />
-      <pane id="Scratches" />
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="Robotics-Website" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Robotics-Website" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="Robotics-Website" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Robotics-Website" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="views" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-    </panes>
+    <panes />
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -458,7 +217,8 @@
       <workItem from="1541184206172" duration="1291000" />
       <workItem from="1541193245720" duration="1153000" />
       <workItem from="1541195457542" duration="962000" />
-      <workItem from="1541197137183" duration="136000" />
+      <workItem from="1541197137183" duration="1937000" />
+      <workItem from="1541203789786" duration="1228000" />
     </task>
     <task id="LOCAL-00001" summary="Some updates">
       <created>1541011426302</created>
@@ -495,29 +255,37 @@
       <option name="project" value="LOCAL" />
       <updated>1541184682020</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="EJS router">
+      <created>1541197296865</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1541197296866</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="18822000" />
+    <option name="totallyTimeSpent" value="21851000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="51" y="56" width="1280" height="1024" extended-state="6" />
+    <frame x="0" y="56" width="1280" height="1024" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32921347" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3281075" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.34157303" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.29983792" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Statistic" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3281075" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28651685" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32921347" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -570,6 +338,46 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="14" column="28" lean-forward="false" selection-start-line="14" selection-start-column="28" selection-end-line="14" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components/navbar.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="7" column="85" lean-forward="true" selection-start-line="7" selection-start-column="85" selection-end-line="7" selection-end-column="85" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/404.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="522">
+          <caret line="29" column="47" lean-forward="false" selection-start-line="29" selection-start-column="47" selection-end-line="29" selection-end-column="47" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/thing.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="522">
+          <caret line="29" column="45" lean-forward="false" selection-start-line="29" selection-start-column="45" selection-end-line="29" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/index.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="666">
+          <caret line="37" column="41" lean-forward="false" selection-start-line="37" selection-start-column="41" selection-end-line="37" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="252">
@@ -700,18 +508,42 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/components/navbar.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="7" column="85" lean-forward="false" selection-start-line="7" selection-start-column="85" selection-end-line="7" selection-end-column="85" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package-lock.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="404" column="0" lean-forward="false" selection-start-line="404" selection-start-column="0" selection-end-line="404" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/firebase.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="8" column="3" lean-forward="false" selection-start-line="8" selection-start-column="3" selection-end-line="8" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="14" column="28" lean-forward="false" selection-start-line="14" selection-start-column="28" selection-end-line="14" selection-end-column="28" />
+        <state relative-caret-position="18">
+          <caret line="1" column="35" lean-forward="true" selection-start-line="1" selection-start-column="35" selection-end-line="1" selection-end-column="35" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/views/index.ejs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="18">
-          <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+        <state relative-caret-position="666">
+          <caret line="37" column="41" lean-forward="false" selection-start-line="37" selection-start-column="41" selection-end-line="37" selection-end-column="41" />
           <folding />
         </state>
       </provider>

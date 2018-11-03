@@ -1,9 +1,6 @@
+const path = require('path');
 const express = require('express');
-
-var fs = require('fs');
 var app = express();
-var path = require('path');
-var http = require('http').Server(app);
 
 app.use(express.static(path.join(__dirname, 'public')));
 app.set('view engine', 'ejs');
