@@ -47,7 +47,7 @@ $(document).ready(function () {
     };
 
     var wp = new Waypoint({
-        element: document.getElementById('about'),
+        element: document.getElementById('content'),
         handler: function(direction) {
             updateScroll(direction == 'down' ? 'body' : 'hidden');
         },
@@ -55,7 +55,7 @@ $(document).ready(function () {
     })
 
     var wp2 = new Waypoint({
-        element: document.getElementById('header'),
+        element: document.getElementById('page-header'),
         handler: function(direction) {
             updateScroll(direction == 'down' ? 'hidden' : 'docked');
         },

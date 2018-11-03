@@ -333,7 +333,7 @@ Courtesy of https://codepen.io/2xsamurai/pen/WwmjKQ*/
 }
 
 /* Header */
-#header {
+.header {
     min-height: 550px;
     height: 100vh;
     display: block;
@@ -349,7 +349,21 @@ Courtesy of https://codepen.io/2xsamurai/pen/WwmjKQ*/
     background-position: center;
     background-size: cover;
     overflow: hidden;
-
+}
+.page-cover {
+    height: 400px;
+    display: block;
+    color: white !important;
+    margin-top: 0px;
+    padding-left: 0%;
+    padding-right: 0%;
+    padding-top: 0%;
+    padding-bottom: 0%;
+}
+.page-content {
+    text-align: center !important;
+    margin:0;
+    transform: translateY(-50%);
 }
 .cover-content {
     position:absolute;
@@ -362,6 +376,9 @@ Courtesy of https://codepen.io/2xsamurai/pen/WwmjKQ*/
     font-family: Avenir;
     text-align: left;
 }
+.page-spacer {
+    height: 200px;
+}
 #cover-spacer {
     min-height: 275px;
     height: 50vh;
@@ -369,6 +386,13 @@ Courtesy of https://codepen.io/2xsamurai/pen/WwmjKQ*/
 #subscribe-spacer {
     min-height: 350px;
     height: 50vh;
+}
+
+.page-caption {
+    font-weight: bold;
+    font-size: 5em !important;
+    text-align: center !important;
+    line-height: 1em !important;
 }
 
 #main-caption {
@@ -399,7 +423,6 @@ Courtesy of https://codepen.io/2xsamurai/pen/WwmjKQ*/
     font-size: 3em !important;
     text-align: center !important;
 }
-
 
 /* Footer */
 #footer {
@@ -575,6 +598,11 @@ Courtesy of https://codepen.io/2xsamurai/pen/WwmjKQ*/
 
     #main-caption {
         font-size: 4em;
+    }
+
+    .page-content {
+        margin:auto;
+        width: calc(100vw - 30px);
     }
 
     .cover-content {
