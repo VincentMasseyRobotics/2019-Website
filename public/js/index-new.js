@@ -9,6 +9,8 @@ $(document).ready(function () {
             swal("You found it!", "Super secret Awad mode activated!", "success");
 
             $('*').css('background', 'url("../images/awad.jpg")');
+            $('*').css('background-size', 'cover');
+            $('*').css('background-position', 'center');
         }
     });
 
