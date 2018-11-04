@@ -341,12 +341,13 @@ Courtesy of https://codepen.io/2xsamurai/pen/WwmjKQ*/
     margin-top: 0px !important;
     padding: 0 !important;
 
-    /*background-attachment: fixed;*/
-    background-color: black;
+    /*background-attachment: fixed;
+    background-color: black;*/
     background-position: center;
     background-size: cover;
     overflow: hidden;
 }
+
 .page-cover {
     height: 400px;
     display: block;

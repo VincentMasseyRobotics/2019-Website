@@ -1,5 +1,17 @@
 $(document).ready(function () {
 
+    var awad = 0;
+
+    $('#missionstatement').click(function() {
+        awad ++;
+
+        if (awad == 10) {
+            swal("You found it!", "Super secret Awad mode activated!", "success");
+
+            $('*').css('background', 'url("../images/awad.jpg")');
+        }
+    });
+
     function updateScroll(position) {
         switch (position) {
             case 'hidden': // Hide bar when detached from top
