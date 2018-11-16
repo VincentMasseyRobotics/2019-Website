@@ -2,7 +2,7 @@ $(document).ready(function () {
 
     var awad = 0;
 
-    $('#missionstatement').click(function() {
+    $('#awad').click(function() {
         awad ++;
 
         if (awad == 10) {

@@ -286,7 +286,7 @@ Courtesy of https://codepen.io/2xsamurai/pen/WwmjKQ*/
 
 /* Master Container */
 .slide {
-    color: black;
+    color: rgb(20, 20, 20);
     width:100%;
 
     display:table;
