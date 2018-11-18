@@ -35,7 +35,7 @@ Developed by: Henry Tu, Ryan Zhang, David Hui, James Xu
 
                     <p id="time-caption">Countdown to build season</p>
                     <p id="time-left">
-                        00:00:00:00
+                        T-00:00:00:00
                     </p>
                     <!--
                     <label for="mce-EMAIL" style="font-weight: normal; font-family: Avenir; font-size: 1.2em; text-align: left">Subscribe to our mailing list for updates!</label>
@@ -141,7 +141,7 @@ Developed by: Henry Tu, Ryan Zhang, David Hui, James Xu
             var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
             var seconds = Math.floor((distance % (1000 * 60)) / 1000);
 
-            document.getElementById("time-left").innerHTML = "<b>" + pad(days, 2) + ":" + pad(hours, 2) + ":" + pad(minutes, 2) + ":" + pad(seconds, 2) + "</b>";
+            document.getElementById("time-left").innerHTML = "<b>T-" + pad(days, 2) + ":" + pad(hours, 2) + ":" + pad(minutes, 2) + ":" + pad(seconds, 2) + "</b>";
         }
     }, 1000);
 
