@@ -357,6 +357,10 @@ Courtesy of https://codepen.io/2xsamurai/pen/WwmjKQ*/
 .competition-content {
     text-align: left;
 }
+.season {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
 
 /* Quote blocks */
 .quote-block {
