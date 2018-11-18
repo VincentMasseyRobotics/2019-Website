@@ -44,7 +44,10 @@ h3{
     font-family: Avenir Next Bold;
 }
 h4{
-    font-size: 1.4em;
+    font-size: 2em;
+}
+h5{
+    font-size: 1.5em;
 }
 p {
     font-size: 1.2em;
@@ -309,6 +312,51 @@ Courtesy of https://codepen.io/2xsamurai/pen/WwmjKQ*/
     padding-top: 75px;
 }
 
+/* Subsection */
+.subsection h3 {
+    font-family: 'Avenir Next Bold';
+    text-align: center;
+}
+.subsection {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+/* Competition stuff */
+#competitionsandawards {
+    text-align: left;
+}
+.competition {
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+    padding: 20px;
+    border: solid 1px black;
+    text-align: left;
+}
+.competition h1 {
+    font-size: 2em;
+    text-align: left;
+    margin: 0;
+}
+.competition h3 {
+    font-size: 1.5em;
+    text-align: left;
+    margin: 0;
+}
+.competition hr {
+    border-color: #CCCCCC;
+}
+.competition-image {
+    max-width: 500px;
+    width: 100%;
+    height: auto;
+    float: right;
+}
+.competition-content {
+    text-align: left;
+}
+
 /* Quote blocks */
 .quote-block {
     width: 100vw;
@@ -370,6 +418,9 @@ Courtesy of https://codepen.io/2xsamurai/pen/WwmjKQ*/
     font-size: 1.6em;
     font-family: Avenir;
     text-align: left;
+}
+.spacer {
+    height: 50%;
 }
 .page-spacer {
     height: 200px;
