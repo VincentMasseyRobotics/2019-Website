@@ -1,5 +1,59 @@
 $(document).ready(function () {
 
+    $('#contact-form').submit(function(e) {
+        e.preventDefault();
+
+        var email = $('#contact-email');
+        var name = $('#contact-name');
+        var message = $('#contact-message');
+
+        swal({
+            type: 'info',
+            title: 'Processing message'
+        });
+        swal.showLoading()
+
+
+        $.ajax({
+            url: './contact',
+            type: 'POST',
+            contentType: 'application/json; charset=utf-8',
+            dataType: 'json',
+            data: JSON.stringify({
+                email: email.val(),
+                name: name.val(),
+                message: message.val()
+            }),
+            success: function (msg) {
+                if (msg['message'] == "success") {
+                    swal({
+                        type: 'success',
+                        title: 'Message sent!',
+                        html: 'Thank you for contacting us! We\'ll respond as soon as possible.'
+                    });
+
+                    email.val("");
+                    name.val("");
+                    message.val("");
+                } else {
+                    swal(
+                        'Oops...',
+                        'Something went wrong! Please try again later.',
+                        'error'
+                    );
+                }
+            },
+            error: function () {
+                swal(
+                    'Oops...',
+                    'Something went wrong! Please try again later.',
+                    'error'
+                );
+            }
+
+        });
+    });
+
     var awad = 0;
 
     $('#awad').click(function() {
@@ -102,6 +156,12 @@ $(document).ready(function () {
     });
 
     var bgresize = function () {
+        if($("#nav-ham").hasClass("is-active")){
+            $("#nav-ham").toggleClass("is-active");
+            $(".overlay").css({top: "-100%"});
+            $("html").css({"overflow-y": "visible"});
+        }
+
         if ($(document).width() <= 767) {
 
             $("#accordion").removeClass("hidden");
@@ -124,12 +184,6 @@ $(document).ready(function () {
             $("#navright").show();
 
             $("#nav-inner").addClass("container");
-        }
-
-        if($("#nav-ham").hasClass("is-active")){
-            $("#nav-ham").toggleClass("is-active");
-            $(".overlay").css({top: "-100%"});
-            $("html").css({"overflow-y": "visible"});
         }
     }
 

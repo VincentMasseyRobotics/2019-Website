@@ -197,7 +197,7 @@ Courtesy of https://codepen.io/2xsamurai/pen/WwmjKQ*/
     font-size: 1.2em;
 }
 #nav-main {
-    z-index: 9500;
+    z-index: 500;
     font-family: Avenir Next Bold;
     background-color: transparent;
     border-color: transparent;
@@ -229,7 +229,7 @@ Courtesy of https://codepen.io/2xsamurai/pen/WwmjKQ*/
     background: rgba(0, 0, 0, 0.7);
 }
 .overlay {
-    z-index: 9400;
+    z-index: 400;
     /*background: rgba(255, 255, 255, 0.8);*/
     top: -100%;
 
@@ -299,7 +299,7 @@ Courtesy of https://codepen.io/2xsamurai/pen/WwmjKQ*/
 
     padding-top: 150px;
 
-    background: #fafafa;
+    background: #fcfcfc;
     background-size: cover;
     background-position: center;
     text-align: center;
@@ -371,6 +371,12 @@ Courtesy of https://codepen.io/2xsamurai/pen/WwmjKQ*/
 .season {
     margin-top: 50px;
     margin-bottom: 50px;
+}
+#sponsors img {
+    width: 100%;
+    padding: 10px;
+
+    transition: all 0.3s;
 }
 
 /* Quote blocks */
@@ -793,27 +799,8 @@ Courtesy of https://codepen.io/2xsamurai/pen/WwmjKQ*/
     background-color:rgba(0,0,0,0);
 }
 
-#mce-EMAIL {
-    /*border-image-source: linear-gradient(#fc6076 0%, #ff9a44 100%) !important;
-    border-width: 2pt !important;
-    border-image-slice: 1 !important;*/
+#contact-form {
 
-    background-color: white !important;
-    color: black !important;
-    border-radius: 0px !important;
-}
-#mc-embedded-subscribe {
-    background-color: transparent !important;
-    color: white !important;
-    border-radius: 0px !important;
-    border-color: white !important;
-}
-#mc-embedded-subscribe:hover {
-    background-color: transparent !important;
-    color: black !important;
-    background-color: #FFFFFF !important;
-    border-radius: 0px !important;
-    border-color: white !important;
 }
 
 @media (max-width: 768px) {
@@ -846,6 +833,10 @@ Courtesy of https://codepen.io/2xsamurai/pen/WwmjKQ*/
 
     .competition:hover {
         transform: scale(1.02);
+    }
+
+    #sponsors img:hover {
+        transform: scale(1.05);
     }
 }
 
