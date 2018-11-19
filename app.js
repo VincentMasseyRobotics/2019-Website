@@ -34,7 +34,7 @@ app.post('/contact', function(req, res) {
             to: process.env.EMAIL_RECIPIENT,
             subject: '[FRC4903] New message from ' + name,
             text: 'Your email client does not support the viewing of HTML emails. Please consider enabling HTML emails in your settings, or downloading a client capable of viewing HTML emails.',
-            html: 'Name: ' + name + '<br>Email: ' + email + '<br>Message: ' + message
+            html: 'Name: ' + name + '<br>Email: ' + email + '<br>Message: ' + message + '<br><br>--<br><b>DO NOT REPLY TO THIS EMAIL!!!! THE INBOX IS CONTROLLED BY A ROBOT. ~beep boop</b'
         };
 
         transporter.sendMail(email_message, function(error,response){
