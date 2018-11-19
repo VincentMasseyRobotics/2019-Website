@@ -317,6 +317,11 @@ Courtesy of https://codepen.io/2xsamurai/pen/WwmjKQ*/
     font-family: 'Avenir Next Bold';
     text-align: center;
 }
+.subsection h4 {
+    text-align: left;
+    margin-top: 30px;
+    font-weight: bold;
+}
 .subsection {
     margin-top: 30px;
     margin-bottom: 30px;
