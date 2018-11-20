@@ -3,12 +3,64 @@
   <component name="ChangeListManager">
     <list default="true" id="ea12e439-49ba-4a16-b8b7-7697e582d397" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/public/css/main-new.css" afterPath="$PROJECT_DIR$/public/css/main-new.css" />
-      <change beforePath="$PROJECT_DIR$/views/contacts.ejs" afterPath="$PROJECT_DIR$/views/contacts.ejs" />
-      <change beforePath="$PROJECT_DIR$/views/first.ejs" afterPath="$PROJECT_DIR$/views/first.ejs" />
-      <change beforePath="$PROJECT_DIR$/views/media.ejs" afterPath="$PROJECT_DIR$/views/media.ejs" />
-      <change beforePath="$PROJECT_DIR$/views/sponsorship.ejs" afterPath="$PROJECT_DIR$/views/sponsorship.ejs" />
-      <change beforePath="$PROJECT_DIR$/views/team.ejs" afterPath="$PROJECT_DIR$/views/team.ejs" />
+      <change beforePath="$PROJECT_DIR$/public/images/awad.jpg" afterPath="$PROJECT_DIR$/public/images/awad.jpg" />
+      <change beforePath="$PROJECT_DIR$/public/images/bg.jpg" afterPath="$PROJECT_DIR$/public/images/bg.jpg" />
+      <change beforePath="$PROJECT_DIR$/public/images/competitions/2014.jpg" afterPath="$PROJECT_DIR$/public/images/competitions/2014.jpg" />
+      <change beforePath="$PROJECT_DIR$/public/images/competitions/2015.jpg" afterPath="$PROJECT_DIR$/public/images/competitions/2015.jpg" />
+      <change beforePath="$PROJECT_DIR$/public/images/competitions/2015B.jpg" afterPath="$PROJECT_DIR$/public/images/competitions/2015B.jpg" />
+      <change beforePath="$PROJECT_DIR$/public/images/competitions/2015C.jpg" afterPath="$PROJECT_DIR$/public/images/competitions/2015C.jpg" />
+      <change beforePath="$PROJECT_DIR$/public/images/competitions/2016.jpg" afterPath="$PROJECT_DIR$/public/images/competitions/2016.jpg" />
+      <change beforePath="$PROJECT_DIR$/public/images/competitions/2017.jpg" afterPath="$PROJECT_DIR$/public/images/competitions/2017.jpg" />
+      <change beforePath="$PROJECT_DIR$/public/images/competitions/2017B.jpg" afterPath="$PROJECT_DIR$/public/images/competitions/2017B.jpg" />
+      <change beforePath="$PROJECT_DIR$/public/images/competitions/2018.jpg" afterPath="$PROJECT_DIR$/public/images/competitions/2018.jpg" />
+      <change beforePath="$PROJECT_DIR$/public/images/competitions/2018B.jpg" afterPath="$PROJECT_DIR$/public/images/competitions/2018B.jpg" />
+      <change beforePath="$PROJECT_DIR$/public/images/competitions/2018C.jpg" afterPath="$PROJECT_DIR$/public/images/competitions/2018C.jpg" />
+      <change beforePath="$PROJECT_DIR$/public/images/competitions/2018D.jpg" afterPath="$PROJECT_DIR$/public/images/competitions/2018D.jpg" />
+      <change beforePath="$PROJECT_DIR$/public/images/first/FLL.png" afterPath="$PROJECT_DIR$/public/images/first/FLL.png" />
+      <change beforePath="$PROJECT_DIR$/public/images/first/FLLJR.png" afterPath="$PROJECT_DIR$/public/images/first/FLLJR.png" />
+      <change beforePath="$PROJECT_DIR$/public/images/first/FRC.png" afterPath="$PROJECT_DIR$/public/images/first/FRC.png" />
+      <change beforePath="$PROJECT_DIR$/public/images/first/FTC.png" afterPath="$PROJECT_DIR$/public/images/first/FTC.png" />
+      <change beforePath="$PROJECT_DIR$/public/images/first/quote1.jpg" afterPath="$PROJECT_DIR$/public/images/first/quote1.jpg" />
+      <change beforePath="$PROJECT_DIR$/public/images/first/quote2.jpg" afterPath="$PROJECT_DIR$/public/images/first/quote2.jpg" />
+      <change beforePath="$PROJECT_DIR$/public/images/gallery/2014/0.jpg" afterPath="$PROJECT_DIR$/public/images/gallery/2014/0.jpg" />
+      <change beforePath="$PROJECT_DIR$/public/images/gallery/2015/0.jpg" afterPath="$PROJECT_DIR$/public/images/gallery/2015/0.jpg" />
+      <change beforePath="$PROJECT_DIR$/public/images/gallery/2015/1.jpg" afterPath="$PROJECT_DIR$/public/images/gallery/2015/1.jpg" />
+      <change beforePath="$PROJECT_DIR$/public/images/gallery/2015/2.jpg" afterPath="$PROJECT_DIR$/public/images/gallery/2015/2.jpg" />
+      <change beforePath="$PROJECT_DIR$/public/images/gallery/2015/3.jpg" afterPath="$PROJECT_DIR$/public/images/gallery/2015/3.jpg" />
+      <change beforePath="$PROJECT_DIR$/public/images/gallery/2015/4.jpg" afterPath="$PROJECT_DIR$/public/images/gallery/2015/4.jpg" />
+      <change beforePath="$PROJECT_DIR$/public/images/gallery/2015/5.jpg" afterPath="$PROJECT_DIR$/public/images/gallery/2015/5.jpg" />
+      <change beforePath="$PROJECT_DIR$/public/images/gallery/2016/0.jpg" afterPath="$PROJECT_DIR$/public/images/gallery/2016/0.jpg" />
+      <change beforePath="$PROJECT_DIR$/public/images/gallery/2016/1.jpg" afterPath="$PROJECT_DIR$/public/images/gallery/2016/1.jpg" />
+      <change beforePath="$PROJECT_DIR$/public/images/gallery/2016/2.jpg" afterPath="$PROJECT_DIR$/public/images/gallery/2016/2.jpg" />
+      <change beforePath="$PROJECT_DIR$/public/images/gallery/2016/3.jpg" afterPath="$PROJECT_DIR$/public/images/gallery/2016/3.jpg" />
+      <change beforePath="$PROJECT_DIR$/public/images/gallery/2016/4.jpg" afterPath="$PROJECT_DIR$/public/images/gallery/2016/4.jpg" />
+      <change beforePath="$PROJECT_DIR$/public/images/gallery/2016/5.jpg" afterPath="$PROJECT_DIR$/public/images/gallery/2016/5.jpg" />
+      <change beforePath="$PROJECT_DIR$/public/images/gallery/2017/0.jpg" afterPath="$PROJECT_DIR$/public/images/gallery/2017/0.jpg" />
+      <change beforePath="$PROJECT_DIR$/public/images/gallery/2017/1.jpg" afterPath="$PROJECT_DIR$/public/images/gallery/2017/1.jpg" />
+      <change beforePath="$PROJECT_DIR$/public/images/gallery/2017/2.jpg" afterPath="$PROJECT_DIR$/public/images/gallery/2017/2.jpg" />
+      <change beforePath="$PROJECT_DIR$/public/images/gallery/2018/0.jpg" afterPath="$PROJECT_DIR$/public/images/gallery/2018/0.jpg" />
+      <change beforePath="$PROJECT_DIR$/public/images/gallery/2018/1.jpg" afterPath="$PROJECT_DIR$/public/images/gallery/2018/1.jpg" />
+      <change beforePath="$PROJECT_DIR$/public/images/gallery/2018/2.jpg" afterPath="$PROJECT_DIR$/public/images/gallery/2018/2.jpg" />
+      <change beforePath="$PROJECT_DIR$/public/images/gallery/2018/3.jpg" afterPath="$PROJECT_DIR$/public/images/gallery/2018/3.jpg" />
+      <change beforePath="$PROJECT_DIR$/public/images/gallery/2018/4.jpg" afterPath="$PROJECT_DIR$/public/images/gallery/2018/4.jpg" />
+      <change beforePath="$PROJECT_DIR$/public/images/gallery/2018/5.jpg" afterPath="$PROJECT_DIR$/public/images/gallery/2018/5.jpg" />
+      <change beforePath="$PROJECT_DIR$/public/images/logo/first.png" afterPath="$PROJECT_DIR$/public/images/logo/first.png" />
+      <change beforePath="$PROJECT_DIR$/public/images/quote.jpg" afterPath="$PROJECT_DIR$/public/images/quote.jpg" />
+      <change beforePath="$PROJECT_DIR$/public/images/robot.jpg" afterPath="$PROJECT_DIR$/public/images/robot.jpg" />
+      <change beforePath="$PROJECT_DIR$/public/images/slide/1.jpg" afterPath="$PROJECT_DIR$/public/images/slide/1.jpg" />
+      <change beforePath="$PROJECT_DIR$/public/images/slide/2.jpg" afterPath="$PROJECT_DIR$/public/images/slide/2.jpg" />
+      <change beforePath="$PROJECT_DIR$/public/images/slide/3.jpg" afterPath="$PROJECT_DIR$/public/images/slide/3.jpg" />
+      <change beforePath="$PROJECT_DIR$/public/images/slide/4.jpg" afterPath="$PROJECT_DIR$/public/images/slide/4.jpg" />
+      <change beforePath="$PROJECT_DIR$/public/images/slide/5.jpg" afterPath="$PROJECT_DIR$/public/images/slide/5.jpg" />
+      <change beforePath="$PROJECT_DIR$/public/images/slide/6.jpg" afterPath="$PROJECT_DIR$/public/images/slide/6.jpg" />
+      <change beforePath="$PROJECT_DIR$/public/images/slide/7.jpg" afterPath="$PROJECT_DIR$/public/images/slide/7.jpg" />
+      <change beforePath="$PROJECT_DIR$/public/images/sponsors/2018/General_Motors_logo.svg.png" afterPath="$PROJECT_DIR$/public/images/sponsors/2018/General_Motors_logo.svg.png" />
+      <change beforePath="$PROJECT_DIR$/public/images/sponsors/2018/bam-logo.png" afterPath="$PROJECT_DIR$/public/images/sponsors/2018/bam-logo.png" />
+      <change beforePath="$PROJECT_DIR$/public/images/sponsors/2018/brave.png" afterPath="$PROJECT_DIR$/public/images/sponsors/2018/brave.png" />
+      <change beforePath="$PROJECT_DIR$/public/images/sponsors/2018/logo-final.png" afterPath="$PROJECT_DIR$/public/images/sponsors/2018/logo-final.png" />
+      <change beforePath="$PROJECT_DIR$/public/images/sponsors/2018/tregaskiss.jpg" afterPath="$PROJECT_DIR$/public/images/sponsors/2018/tregaskiss.jpg" />
+      <change beforePath="$PROJECT_DIR$/public/images/sponsors/2018/trqss.jpg" afterPath="$PROJECT_DIR$/public/images/sponsors/2018/trqss.jpg" />
+      <change beforePath="$PROJECT_DIR$/public/images/sponsors/2018/valiant.jpg" afterPath="$PROJECT_DIR$/public/images/sponsors/2018/valiant.jpg" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -109,7 +161,7 @@
         <entry file="file://$PROJECT_DIR$/views/contacts.ejs">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="60">
-              <caret line="99" column="42" lean-forward="true" selection-start-line="99" selection-start-column="42" selection-end-line="99" selection-end-column="42" />
+              <caret line="99" column="42" lean-forward="false" selection-start-line="99" selection-start-column="42" selection-end-line="99" selection-end-column="42" />
               <folding>
                 <element signature="n#style#0;n#div#1;n#div#0;n#section#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#0;n#form#0;n#div#1;n#div#0;n#section#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -355,7 +407,7 @@
       <workItem from="1542332050452" duration="3231000" />
       <workItem from="1542374694192" duration="13623000" />
       <workItem from="1542589235305" duration="10133000" />
-      <workItem from="1542633327668" duration="13431000" />
+      <workItem from="1542633327668" duration="13672000" />
     </task>
     <task id="LOCAL-00001" summary="Some updates">
       <created>1541011426302</created>
@@ -567,11 +619,18 @@
       <option name="project" value="LOCAL" />
       <updated>1542680236583</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="Photos">
+      <created>1542692112337</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1542692112337</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="96712000" />
+    <option name="totallyTimeSpent" value="96953000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1280" y="28" width="1920" height="1052" extended-state="6" />
@@ -629,8 +688,6 @@
     <ignored-roots>
       <path value="$PROJECT_DIR$/views" />
     </ignored-roots>
-    <MESSAGE value="Nodify everything" />
-    <MESSAGE value="EJS router" />
     <MESSAGE value="Firebase rough in" />
     <MESSAGE value="Jason error page" />
     <MESSAGE value="Auto change countdown caption" />
@@ -654,7 +711,9 @@
     <MESSAGE value="Mailing front and backend working" />
     <MESSAGE value="Robot email footer" />
     <MESSAGE value="Contact form" />
-    <option name="LAST_COMMIT_MESSAGE" value="Contact form" />
+    <MESSAGE value="Photos" />
+    <MESSAGE value="Compressed some photos" />
+    <option name="LAST_COMMIT_MESSAGE" value="Compressed some photos" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -915,7 +974,7 @@
     <entry file="file://$PROJECT_DIR$/views/contacts.ejs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
-          <caret line="99" column="42" lean-forward="true" selection-start-line="99" selection-start-column="42" selection-end-line="99" selection-end-column="42" />
+          <caret line="99" column="42" lean-forward="false" selection-start-line="99" selection-start-column="42" selection-end-line="99" selection-end-column="42" />
           <folding>
             <element signature="n#style#0;n#div#1;n#div#0;n#section#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#form#0;n#div#1;n#div#0;n#section#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
