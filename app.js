@@ -4,8 +4,13 @@ const path = require('path');
 const express = require('express');
 const bodyParser = require('body-parser');
 const escape = require('escape-html');
+const minify = require('express-minify');
+const compression = require('compression');
 
 var app = express();
+
+app.use(compression());
+app.use(minify());
 
 var smtpConfig = {
     host: process.env.EMAIL_HOST,

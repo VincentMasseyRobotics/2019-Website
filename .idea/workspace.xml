@@ -1,45 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ea12e439-49ba-4a16-b8b7-7697e582d397" name="Default" comment="Compressed some photos">
+    <list default="true" id="ea12e439-49ba-4a16-b8b7-7697e582d397" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/public/images/competitions/2015.jpg" afterPath="$PROJECT_DIR$/public/images/competitions/2015.jpg" />
-      <change beforePath="$PROJECT_DIR$/public/images/competitions/2015B.jpg" afterPath="$PROJECT_DIR$/public/images/competitions/2015B.jpg" />
-      <change beforePath="$PROJECT_DIR$/public/images/competitions/2015C.jpg" afterPath="$PROJECT_DIR$/public/images/competitions/2015C.jpg" />
-      <change beforePath="$PROJECT_DIR$/public/images/competitions/2016.jpg" afterPath="$PROJECT_DIR$/public/images/competitions/2016.jpg" />
-      <change beforePath="$PROJECT_DIR$/public/images/competitions/2017B.jpg" afterPath="$PROJECT_DIR$/public/images/competitions/2017B.jpg" />
-      <change beforePath="$PROJECT_DIR$/public/images/competitions/2018.jpg" afterPath="$PROJECT_DIR$/public/images/competitions/2018.jpg" />
-      <change beforePath="$PROJECT_DIR$/public/images/competitions/2018B.jpg" afterPath="$PROJECT_DIR$/public/images/competitions/2018B.jpg" />
-      <change beforePath="$PROJECT_DIR$/public/images/competitions/2018C.jpg" afterPath="$PROJECT_DIR$/public/images/competitions/2018C.jpg" />
-      <change beforePath="$PROJECT_DIR$/public/images/competitions/2018D.jpg" afterPath="$PROJECT_DIR$/public/images/competitions/2018D.jpg" />
-      <change beforePath="$PROJECT_DIR$/public/images/first/quote1.jpg" afterPath="$PROJECT_DIR$/public/images/first/quote1.jpg" />
-      <change beforePath="$PROJECT_DIR$/public/images/first/quote2.jpg" afterPath="$PROJECT_DIR$/public/images/first/quote2.jpg" />
-      <change beforePath="$PROJECT_DIR$/public/images/gallery/2015/0.jpg" afterPath="$PROJECT_DIR$/public/images/gallery/2015/0.jpg" />
-      <change beforePath="$PROJECT_DIR$/public/images/gallery/2015/1.jpg" afterPath="$PROJECT_DIR$/public/images/gallery/2015/1.jpg" />
-      <change beforePath="$PROJECT_DIR$/public/images/gallery/2015/2.jpg" afterPath="$PROJECT_DIR$/public/images/gallery/2015/2.jpg" />
-      <change beforePath="$PROJECT_DIR$/public/images/gallery/2015/3.jpg" afterPath="$PROJECT_DIR$/public/images/gallery/2015/3.jpg" />
-      <change beforePath="$PROJECT_DIR$/public/images/gallery/2015/4.jpg" afterPath="$PROJECT_DIR$/public/images/gallery/2015/4.jpg" />
-      <change beforePath="$PROJECT_DIR$/public/images/gallery/2015/5.jpg" afterPath="$PROJECT_DIR$/public/images/gallery/2015/5.jpg" />
-      <change beforePath="$PROJECT_DIR$/public/images/gallery/2016/0.jpg" afterPath="$PROJECT_DIR$/public/images/gallery/2016/0.jpg" />
-      <change beforePath="$PROJECT_DIR$/public/images/gallery/2016/1.jpg" afterPath="$PROJECT_DIR$/public/images/gallery/2016/1.jpg" />
-      <change beforePath="$PROJECT_DIR$/public/images/gallery/2016/2.jpg" afterPath="$PROJECT_DIR$/public/images/gallery/2016/2.jpg" />
-      <change beforePath="$PROJECT_DIR$/public/images/gallery/2016/3.jpg" afterPath="$PROJECT_DIR$/public/images/gallery/2016/3.jpg" />
-      <change beforePath="$PROJECT_DIR$/public/images/gallery/2016/4.jpg" afterPath="$PROJECT_DIR$/public/images/gallery/2016/4.jpg" />
-      <change beforePath="$PROJECT_DIR$/public/images/gallery/2016/5.jpg" afterPath="$PROJECT_DIR$/public/images/gallery/2016/5.jpg" />
-      <change beforePath="$PROJECT_DIR$/public/images/gallery/2017/1.jpg" afterPath="$PROJECT_DIR$/public/images/gallery/2017/1.jpg" />
-      <change beforePath="$PROJECT_DIR$/public/images/gallery/2017/2.jpg" afterPath="$PROJECT_DIR$/public/images/gallery/2017/2.jpg" />
-      <change beforePath="$PROJECT_DIR$/public/images/gallery/2018/0.jpg" afterPath="$PROJECT_DIR$/public/images/gallery/2018/0.jpg" />
-      <change beforePath="$PROJECT_DIR$/public/images/gallery/2018/1.jpg" afterPath="$PROJECT_DIR$/public/images/gallery/2018/1.jpg" />
-      <change beforePath="$PROJECT_DIR$/public/images/gallery/2018/2.jpg" afterPath="$PROJECT_DIR$/public/images/gallery/2018/2.jpg" />
-      <change beforePath="$PROJECT_DIR$/public/images/gallery/2018/3.jpg" afterPath="$PROJECT_DIR$/public/images/gallery/2018/3.jpg" />
-      <change beforePath="$PROJECT_DIR$/public/images/gallery/2018/4.jpg" afterPath="$PROJECT_DIR$/public/images/gallery/2018/4.jpg" />
-      <change beforePath="$PROJECT_DIR$/public/images/gallery/2018/5.jpg" afterPath="$PROJECT_DIR$/public/images/gallery/2018/5.jpg" />
-      <change beforePath="$PROJECT_DIR$/public/images/slide/3.jpg" afterPath="$PROJECT_DIR$/public/images/slide/3.jpg" />
-      <change beforePath="$PROJECT_DIR$/public/images/sponsors/2018/General_Motors_logo.svg.png" afterPath="$PROJECT_DIR$/public/images/sponsors/2018/General_Motors_logo.svg.png" />
-      <change beforePath="$PROJECT_DIR$/public/images/sponsors/2018/fca - fiat chrysler automobiles.png" afterPath="$PROJECT_DIR$/public/images/sponsors/2018/fca - fiat chrysler automobiles.png" />
-      <change beforePath="$PROJECT_DIR$/public/images/sponsors/2018/trqss.jpg" afterPath="$PROJECT_DIR$/public/images/sponsors/2018/trqss.jpg" />
-      <change beforePath="$PROJECT_DIR$/views/contacts.ejs" afterPath="$PROJECT_DIR$/views/contacts.ejs" />
-      <change beforePath="$PROJECT_DIR$/views/team.ejs" afterPath="$PROJECT_DIR$/views/team.ejs" />
+      <change beforePath="$PROJECT_DIR$/app.js" afterPath="$PROJECT_DIR$/app.js" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" afterPath="$PROJECT_DIR$/package-lock.json" />
+      <change beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -53,11 +19,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="app.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="app.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="474">
-              <caret line="54" column="16" lean-forward="false" selection-start-line="54" selection-start-column="16" selection-end-line="54" selection-end-column="16" />
+            <state relative-caret-position="126">
+              <caret line="7" column="29" lean-forward="false" selection-start-line="7" selection-start-column="29" selection-end-line="7" selection-end-column="29" />
               <folding />
             </state>
           </provider>
@@ -152,11 +118,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main-new.css" pinned="false" current-in-tab="true">
+      <file leaf-file-name="main-new.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/public/css/main-new.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="168">
-              <caret line="402" column="1" lean-forward="false" selection-start-line="402" selection-start-column="1" selection-end-line="402" selection-end-column="1" />
+            <state relative-caret-position="132">
+              <caret line="400" column="0" lean-forward="false" selection-start-line="400" selection-start-column="0" selection-end-line="400" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -198,11 +164,11 @@
       <find>sponsors</find>
       <find>&lt;a href=&quot;#&quot; t</find>
       <find>&lt;div class=&quot;sponsor&quot;&gt;</find>
-      <find>.sponsor</find>
       <find>&lt;a href=&quot;#&quot; target=&quot;_blank&quot;&gt;</find>
       <find>2016</find>
       <find>col-sm-4</find>
       <find>communit</find>
+      <find>.sponsor</find>
     </findStrings>
     <replaceStrings>
       <replace>4903 Mustangs</replace>
@@ -222,9 +188,9 @@
       <replace>&lt;img class=&quot;competition-image img-fluid&quot; src=&quot;ht</replace>
       <replace>&lt;img class=&quot;competition-image img-fluid&quot;</replace>
       <replace>gallery-image</replace>
-      <replace>&lt;img class=&quot;competition-image img-fluid scaleonhover&quot;</replace>
       <replace>&lt;a href=&quot;#&quot; class=&quot;sponsor&quot; t</replace>
       <replace>2018</replace>
+      <replace>&lt;img class=&quot;competition-image img-fluid scaleonhover&quot;</replace>
     </replaceStrings>
     <dirStrings>
       <dir>$PROJECT_DIR$</dir>
@@ -253,13 +219,13 @@
         <option value="$PROJECT_DIR$/components/footer.ejs" />
         <option value="$PROJECT_DIR$/public/js/index-new.js" />
         <option value="$PROJECT_DIR$/.env" />
-        <option value="$PROJECT_DIR$/app.js" />
         <option value="$PROJECT_DIR$/views/media.ejs" />
         <option value="$PROJECT_DIR$/views/first.ejs" />
         <option value="$PROJECT_DIR$/views/sponsorship.ejs" />
         <option value="$PROJECT_DIR$/views/team.ejs" />
         <option value="$PROJECT_DIR$/views/contacts.ejs" />
         <option value="$PROJECT_DIR$/public/css/main-new.css" />
+        <option value="$PROJECT_DIR$/app.js" />
       </list>
     </option>
   </component>
@@ -407,7 +373,7 @@
       <workItem from="1542332050452" duration="3231000" />
       <workItem from="1542374694192" duration="13623000" />
       <workItem from="1542589235305" duration="10133000" />
-      <workItem from="1542633327668" duration="17398000" />
+      <workItem from="1542633327668" duration="17792000" />
     </task>
     <task id="LOCAL-00001" summary="Some updates">
       <created>1541011426302</created>
@@ -633,17 +599,23 @@
       <option name="project" value="LOCAL" />
       <updated>1542692343657</updated>
     </task>
-    <option name="localTasksCounter" value="33" />
+    <task id="LOCAL-00033" summary="Compressed the remaining photos">
+      <created>1542736444827</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1542736444828</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="100679000" />
+    <option name="totallyTimeSpent" value="101073000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="28" width="1366" height="740" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.29848486" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.29848486" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Statistic" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
@@ -652,7 +624,7 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3281075" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.42739275" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.42739275" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -696,7 +668,6 @@
     <ignored-roots>
       <path value="$PROJECT_DIR$/views" />
     </ignored-roots>
-    <MESSAGE value="Firebase rough in" />
     <MESSAGE value="Jason error page" />
     <MESSAGE value="Auto change countdown caption" />
     <MESSAGE value="Template page" />
@@ -721,7 +692,8 @@
     <MESSAGE value="Contact form" />
     <MESSAGE value="Photos" />
     <MESSAGE value="Compressed some photos" />
-    <option name="LAST_COMMIT_MESSAGE" value="Compressed some photos" />
+    <MESSAGE value="Compressed the remaining photos" />
+    <option name="LAST_COMMIT_MESSAGE" value="Compressed the remaining photos" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -903,14 +875,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="474">
-          <caret line="54" column="16" lean-forward="false" selection-start-line="54" selection-start-column="16" selection-end-line="54" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/views/index.ejs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="198">
@@ -985,8 +949,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/public/css/main-new.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="402" column="1" lean-forward="false" selection-start-line="402" selection-start-column="1" selection-end-line="402" selection-end-column="1" />
+        <state relative-caret-position="132">
+          <caret line="400" column="0" lean-forward="false" selection-start-line="400" selection-start-column="0" selection-end-line="400" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="7" column="29" lean-forward="false" selection-start-line="7" selection-start-column="29" selection-end-line="7" selection-end-column="29" />
           <folding />
         </state>
       </provider>
