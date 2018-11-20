@@ -115,14 +115,25 @@ Developed by: Henry Tu, Ryan Zhang, David Hui, James Xu
 
             </div>
 
-            <div class="subsection">
+            <div class="subsection" style="text-align: center">
                 <h3 class="subsection-caption">Contact</h3>
-
                 <form id="contact-form" onsubmit="false">
-                    <input id="contact-email" type="email" placeholder="Email" required>
-                    <input id="contact-name" type="text" placeholder="Name" required><br>
-                    <input id="contact-message" type="text" placeholder="Message" required>
-                    <button type="submit">Send</button>
+
+                    <div style="text-align: left">
+                        <label>Email</label>
+                        <input id="contact-email" type="email" style="width: 100%" maxlength="100" placeholder="john@smith.com" required>
+                        <br>
+
+                        <label>Name</label>
+                        <input id="contact-name" type="text" style="width: 100%" maxlength="100" placeholder="John Smith" required>
+                        <br>
+
+                        <label>Message</label>
+                        <textarea id="contact-message" form="contact-form" maxlength="1500" style="max-width: 600px; width: 100%; min-height: 100px" required></textarea>
+                    </div>
+
+                    <button type="submit" class="button btn">Send</button>
+
                 </form>
             </div>
         </div>

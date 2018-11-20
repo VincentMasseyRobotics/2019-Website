@@ -2,7 +2,9 @@ require('dotenv').load();
 const nodemailer = require('nodemailer');
 const path = require('path');
 const express = require('express');
-const bodyParser = require('body-parser')
+const bodyParser = require('body-parser');
+const escape = require('escape-html');
+
 var app = express();
 
 var smtpConfig = {
@@ -29,24 +31,30 @@ app.post('/contact', function(req, res) {
 
         console.log(req.body)
 
-        var email_message = {
-            from: process.env.EMAIL_CONTACT,
-            to: process.env.EMAIL_RECIPIENT,
-            subject: '[FRC4903] New message from ' + name,
-            text: 'Your email client does not support the viewing of HTML emails. Please consider enabling HTML emails in your settings, or downloading a client capable of viewing HTML emails.',
-            html: 'Name: ' + name + '<br>Email: ' + email + '<br>Message: ' + message + '<br><br>--<br><b>DO NOT REPLY TO THIS EMAIL!!!! THE INBOX IS CONTROLLED BY A ROBOT. ~beep boop</b'
-        };
+        if (name && email && message && name.length <= 100 && email.length <= 100 && message.length < 1500) {
 
-        transporter.sendMail(email_message, function(error,response){
-            if(error){
-                console.log('Email failed', error, response);
-                res.status(500).json({'error': 'Something went wrong...'});
-            }
-            else{
-                console.log('Email sent', email, name, message);
-                res.json({'message': 'success'});
-            }
-        });
+            var email_message = {
+                from: process.env.EMAIL_CONTACT,
+                to: process.env.EMAIL_RECIPIENT,
+                subject: '[FRC4903] New message from ' + escape(name),
+                text: 'Your email client does not support the viewing of HTML emails. Please consider enabling HTML emails in your settings, or downloading a client capable of viewing HTML emails.',
+                html: 'Name: ' + escape(name) + '<br>Email: ' + escape(email) + '<br>IP: ' + (req.headers['x-forwarded-for'] || req.connection.remoteAddress) + '<br>Message: ' + escape(message) + '<br><br>--<br><b>DO NOT REPLY TO THIS EMAIL!!!! THE INBOX IS CONTROLLED BY A ROBOT. ~beep boop</b'
+            };
+
+            transporter.sendMail(email_message, function (error, response) {
+                if (error) {
+                    console.log('Email failed', error, response);
+                    res.status(500).json({'error': 'Something went wrong...'});
+                }
+                else {
+                    console.log('Email sent', email, name, message);
+                    res.json({'message': 'success'});
+                }
+            });
+
+        } else {
+            res.status(400).json({'error': 'Invalid submission'});
+        }
 
     } catch (e) {
         console.log(e);
