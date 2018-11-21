@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="ea12e439-49ba-4a16-b8b7-7697e582d397" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/views/first.ejs" afterPath="$PROJECT_DIR$/views/first.ejs" />
+      <change beforePath="$PROJECT_DIR$/components/footer.ejs" afterPath="$PROJECT_DIR$/components/footer.ejs" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -17,16 +17,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="app.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="696">
-              <caret line="82" column="51" lean-forward="false" selection-start-line="82" selection-start-column="51" selection-end-line="82" selection-end-column="51" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name=".env" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/.env">
           <provider selected="true" editor-type-id="text-editor">
@@ -70,7 +60,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="first.ejs" pinned="false" current-in-tab="true">
+      <file leaf-file-name="first.ejs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/views/first.ejs">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="167">
@@ -108,11 +98,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="footer.ejs" pinned="false" current-in-tab="false">
+      <file leaf-file-name="footer.ejs" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/components/footer.ejs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="196">
-              <caret line="13" column="36" lean-forward="false" selection-start-line="13" selection-start-column="36" selection-end-line="13" selection-end-column="36" />
+            <state relative-caret-position="264">
+              <caret line="19" column="36" lean-forward="false" selection-start-line="19" selection-start-column="36" selection-end-line="19" selection-end-column="36" />
               <folding>
                 <element signature="n#style#0;n#li#0;n#ul#1;n#div#1;n#div#0;n#div#1;n#section#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#i#0;n#a#0;n#li#0;n#ul#1;n#div#1;n#div#0;n#div#1;n#section#0;n#!!top" expanded="true" />
@@ -148,8 +138,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>hover</find>
-      <find>#sponsors img</find>
       <find>border-radius</find>
       <find>overla</find>
       <find>alse</find>
@@ -178,6 +166,8 @@
       <find>nav-main</find>
       <find>Mdia</find>
       <find>Medi</find>
+      <find>&quot; style=&quot;max-width: 400px; width: 100%;&quot;&gt;</find>
+      <find>media</find>
     </findStrings>
     <replaceStrings>
       <replace>Mustangs 4903</replace>
@@ -203,6 +193,7 @@
       <replace>&lt;!-- Developed by: Henry Tu--&gt;</replace>
       <replace>&lt;!-- Developed by: Henry Tu (github.com/henrytwo) --&gt;</replace>
       <replace>4903 Mustangs</replace>
+      <replace>&quot; style=&quot;max-width: 350px; width: 100%;&quot;&gt;</replace>
     </replaceStrings>
     <dirStrings>
       <dir>$PROJECT_DIR$</dir>
@@ -224,7 +215,6 @@
         <option value="$PROJECT_DIR$/package-lock.json" />
         <option value="$PROJECT_DIR$/public/js/carousel.js" />
         <option value="$PROJECT_DIR$/components/header.ejs" />
-        <option value="$PROJECT_DIR$/components/footer.ejs" />
         <option value="$PROJECT_DIR$/views/team.ejs" />
         <option value="$PROJECT_DIR$/views/media.ejs" />
         <option value="$PROJECT_DIR$/views/sponsorship.ejs" />
@@ -240,6 +230,7 @@
         <option value="$PROJECT_DIR$/components/overlay.ejs" />
         <option value="$PROJECT_DIR$/views/404.ejs" />
         <option value="$PROJECT_DIR$/views/first.ejs" />
+        <option value="$PROJECT_DIR$/components/footer.ejs" />
       </list>
     </option>
   </component>
@@ -342,7 +333,7 @@
       <workItem from="1542374694192" duration="13623000" />
       <workItem from="1542589235305" duration="10133000" />
       <workItem from="1542633327668" duration="18181000" />
-      <workItem from="1542737371142" duration="10463000" />
+      <workItem from="1542737371142" duration="10589000" />
     </task>
     <task id="LOCAL-00001" summary="Some updates">
       <created>1541011426302</created>
@@ -638,11 +629,18 @@
       <option name="project" value="LOCAL" />
       <updated>1542839679091</updated>
     </task>
-    <option name="localTasksCounter" value="43" />
+    <task id="LOCAL-00043" summary="Optimized FIRST page for mobile">
+      <created>1542839847634</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1542839847634</updated>
+    </task>
+    <option name="localTasksCounter" value="44" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="111925000" />
+    <option name="totallyTimeSpent" value="112051000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="56" width="1280" height="1024" extended-state="6" />
@@ -701,7 +699,6 @@
     <ignored-roots>
       <path value="$PROJECT_DIR$/views" />
     </ignored-roots>
-    <MESSAGE value="New feature" />
     <MESSAGE value="Centre stuff" />
     <MESSAGE value="Yuxi stuff" />
     <MESSAGE value="Fixed end of build season" />
@@ -726,7 +723,8 @@
     <MESSAGE value="Stuff..." />
     <MESSAGE value="Load port from env" />
     <MESSAGE value="404" />
-    <option name="LAST_COMMIT_MESSAGE" value="404" />
+    <MESSAGE value="Optimized FIRST page for mobile" />
+    <option name="LAST_COMMIT_MESSAGE" value="Optimized FIRST page for mobile" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -914,17 +912,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/components/footer.ejs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="196">
-          <caret line="13" column="36" lean-forward="false" selection-start-line="13" selection-start-column="36" selection-end-line="13" selection-end-column="36" />
-          <folding>
-            <element signature="n#style#0;n#li#0;n#ul#1;n#div#1;n#div#0;n#div#1;n#section#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#i#0;n#a#0;n#li#0;n#ul#1;n#div#1;n#div#0;n#div#1;n#section#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/views/contacts.ejs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="450">
@@ -1010,6 +997,17 @@
             <element signature="n#style#0;n#img#2;n#div#0;n#div#0;n#section#3;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#p#3;n#div#0;n#div#0;n#section#3;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#img#3;n#div#0;n#div#0;n#section#3;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components/footer.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="19" column="36" lean-forward="false" selection-start-line="19" selection-start-column="36" selection-end-line="19" selection-end-column="36" />
+          <folding>
+            <element signature="n#style#0;n#li#0;n#ul#1;n#div#1;n#div#0;n#div#1;n#section#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#i#0;n#a#0;n#li#0;n#ul#1;n#div#1;n#div#0;n#div#1;n#section#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
