@@ -80,5 +80,5 @@ app.get('*', function(req, res) {
 });
 
 app.listen(process.env.PORT, function () {
-    console.log('listening on *:' + process.env.POST);
+    console.log('listening on *:' + process.env.PORT);
 });
