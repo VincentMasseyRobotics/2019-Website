@@ -316,7 +316,7 @@
       <workItem from="1542589235305" duration="10133000" />
       <workItem from="1542633327668" duration="18181000" />
       <workItem from="1542737371142" duration="12191000" />
-      <workItem from="1542909248713" duration="569000" />
+      <workItem from="1542909248713" duration="658000" />
     </task>
     <task id="LOCAL-00001" summary="Some updates">
       <created>1541011426302</created>
@@ -640,11 +640,18 @@
       <option name="project" value="LOCAL" />
       <updated>1542909311000</updated>
     </task>
-    <option name="localTasksCounter" value="47" />
+    <task id="LOCAL-00047" summary="Test push 2.0">
+      <created>1542909824753</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1542909824753</updated>
+    </task>
+    <option name="localTasksCounter" value="48" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="114222000" />
+    <option name="totallyTimeSpent" value="114311000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="28" width="1366" height="740" extended-state="6" />
@@ -703,7 +710,6 @@
     <ignored-roots>
       <path value="$PROJECT_DIR$/views" />
     </ignored-roots>
-    <MESSAGE value="Fixed end of build season" />
     <MESSAGE value="Start of team section" />
     <MESSAGE value="PowerUp stuff" />
     <MESSAGE value="All other seasons" />
@@ -728,7 +734,8 @@
     <MESSAGE value="Optimized FIRST page for mobile" />
     <MESSAGE value="Fixed footer" />
     <MESSAGE value="Test push" />
-    <option name="LAST_COMMIT_MESSAGE" value="Test push" />
+    <MESSAGE value="Test push 2.0" />
+    <option name="LAST_COMMIT_MESSAGE" value="Test push 2.0" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
