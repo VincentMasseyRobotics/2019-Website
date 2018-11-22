@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ea12e439-49ba-4a16-b8b7-7697e582d397" name="Default" comment="">
+    <list default="true" id="ea12e439-49ba-4a16-b8b7-7697e582d397" name="Default" comment="Test push 442">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/views/contacts.ejs" afterPath="$PROJECT_DIR$/views/contacts.ejs" />
       <change beforePath="$PROJECT_DIR$/views/index.ejs" afterPath="$PROJECT_DIR$/views/index.ejs" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -69,7 +70,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.ejs" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.ejs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/views/index.ejs">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="18">
@@ -99,11 +100,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="contacts.ejs" pinned="false" current-in-tab="false">
+      <file leaf-file-name="contacts.ejs" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/views/contacts.ejs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1188">
-              <caret line="66" column="169" lean-forward="false" selection-start-line="66" selection-start-column="169" selection-end-line="66" selection-end-column="169" />
+            <state relative-caret-position="180">
+              <caret line="45" column="46" lean-forward="false" selection-start-line="45" selection-start-column="46" selection-end-line="45" selection-end-column="46" />
               <folding />
             </state>
           </provider>
@@ -204,7 +205,6 @@
         <option value="$PROJECT_DIR$/public/css/main-new.css" />
         <option value="$PROJECT_DIR$/components/navbar.ejs" />
         <option value="$PROJECT_DIR$/views/photos.ejs" />
-        <option value="$PROJECT_DIR$/views/contacts.ejs" />
         <option value="$PROJECT_DIR$/.env" />
         <option value="$PROJECT_DIR$/.env.template" />
         <option value="$PROJECT_DIR$/app.js" />
@@ -213,6 +213,7 @@
         <option value="$PROJECT_DIR$/views/first.ejs" />
         <option value="$PROJECT_DIR$/components/footer.ejs" />
         <option value="$PROJECT_DIR$/views/index.ejs" />
+        <option value="$PROJECT_DIR$/views/contacts.ejs" />
       </list>
     </option>
   </component>
@@ -316,7 +317,7 @@
       <workItem from="1542589235305" duration="10133000" />
       <workItem from="1542633327668" duration="18181000" />
       <workItem from="1542737371142" duration="12191000" />
-      <workItem from="1542909248713" duration="1105000" />
+      <workItem from="1542909248713" duration="2453000" />
     </task>
     <task id="LOCAL-00001" summary="Some updates">
       <created>1541011426302</created>
@@ -654,11 +655,18 @@
       <option name="project" value="LOCAL" />
       <updated>1542909910968</updated>
     </task>
-    <option name="localTasksCounter" value="49" />
+    <task id="LOCAL-00049" summary="Test push 442">
+      <created>1542910360049</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1542910360049</updated>
+    </task>
+    <option name="localTasksCounter" value="50" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="114758000" />
+    <option name="totallyTimeSpent" value="116106000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="28" width="1366" height="740" extended-state="6" />
@@ -673,7 +681,7 @@
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3281075" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2359736" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2359736" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -717,7 +725,6 @@
     <ignored-roots>
       <path value="$PROJECT_DIR$/views" />
     </ignored-roots>
-    <MESSAGE value="Start of team section" />
     <MESSAGE value="PowerUp stuff" />
     <MESSAGE value="All other seasons" />
     <MESSAGE value="Changed order for Yuxshi" />
@@ -742,7 +749,8 @@
     <MESSAGE value="Fixed footer" />
     <MESSAGE value="Test push" />
     <MESSAGE value="Test push 2.0" />
-    <option name="LAST_COMMIT_MESSAGE" value="Test push 2.0" />
+    <MESSAGE value="Test push 442" />
+    <option name="LAST_COMMIT_MESSAGE" value="Test push 442" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -896,6 +904,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="173">
           <caret line="173" column="5" lean-forward="false" selection-start-line="173" selection-start-column="5" selection-end-line="173" selection-end-column="5" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -910,14 +919,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-2034">
           <caret line="10" column="145" lean-forward="false" selection-start-line="10" selection-start-column="145" selection-end-line="10" selection-end-column="145" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/contacts.ejs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1188">
-          <caret line="66" column="169" lean-forward="false" selection-start-line="66" selection-start-column="169" selection-end-line="66" selection-end-column="169" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -990,6 +991,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="18">
           <caret line="1" column="10" lean-forward="false" selection-start-line="1" selection-start-column="10" selection-end-line="1" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/contacts.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="45" column="46" lean-forward="false" selection-start-line="45" selection-start-column="46" selection-end-line="45" selection-end-column="46" />
           <folding />
         </state>
       </provider>
