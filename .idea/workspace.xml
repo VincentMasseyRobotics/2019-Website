@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ea12e439-49ba-4a16-b8b7-7697e582d397" name="Default" comment="Test push 442">
+    <list default="true" id="ea12e439-49ba-4a16-b8b7-7697e582d397" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/views/contacts.ejs" afterPath="$PROJECT_DIR$/views/contacts.ejs" />
-      <change beforePath="$PROJECT_DIR$/views/index.ejs" afterPath="$PROJECT_DIR$/views/index.ejs" />
+      <change beforePath="$PROJECT_DIR$/views/team.ejs" afterPath="$PROJECT_DIR$/views/team.ejs" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -21,7 +20,7 @@
       <file leaf-file-name=".env" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/.env">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="108">
+            <state relative-caret-position="0">
               <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="11" />
               <folding />
             </state>
@@ -63,7 +62,7 @@
       <file leaf-file-name="first.ejs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/views/first.ejs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1602">
+            <state relative-caret-position="167">
               <caret line="89" column="63" lean-forward="false" selection-start-line="89" selection-start-column="63" selection-end-line="89" selection-end-column="63" />
               <folding />
             </state>
@@ -100,12 +99,24 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="contacts.ejs" pinned="false" current-in-tab="true">
+      <file leaf-file-name="contacts.ejs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/views/contacts.ejs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
+            <state relative-caret-position="399">
               <caret line="45" column="46" lean-forward="false" selection-start-line="45" selection-start-column="46" selection-end-line="45" selection-end-column="46" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="team.ejs" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/views/team.ejs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="72">
+              <caret line="37" column="0" lean-forward="false" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
+              <folding>
+                <marker date="1542999819423" expanded="true" signature="129:23166" ph="..." />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -198,7 +209,6 @@
         <option value="$PROJECT_DIR$/package-lock.json" />
         <option value="$PROJECT_DIR$/public/js/carousel.js" />
         <option value="$PROJECT_DIR$/components/header.ejs" />
-        <option value="$PROJECT_DIR$/views/team.ejs" />
         <option value="$PROJECT_DIR$/views/media.ejs" />
         <option value="$PROJECT_DIR$/views/sponsorship.ejs" />
         <option value="$PROJECT_DIR$/public/js/index-new.js" />
@@ -214,6 +224,7 @@
         <option value="$PROJECT_DIR$/components/footer.ejs" />
         <option value="$PROJECT_DIR$/views/index.ejs" />
         <option value="$PROJECT_DIR$/views/contacts.ejs" />
+        <option value="$PROJECT_DIR$/views/team.ejs" />
       </list>
     </option>
   </component>
@@ -317,14 +328,7 @@
       <workItem from="1542589235305" duration="10133000" />
       <workItem from="1542633327668" duration="18181000" />
       <workItem from="1542737371142" duration="12191000" />
-      <workItem from="1542909248713" duration="2453000" />
-    </task>
-    <task id="LOCAL-00001" summary="Some updates">
-      <created>1541011426302</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1541011426302</updated>
+      <workItem from="1542909248713" duration="4420000" />
     </task>
     <task id="LOCAL-00002" summary="New robot">
       <created>1541011918233</created>
@@ -662,11 +666,18 @@
       <option name="project" value="LOCAL" />
       <updated>1542910360049</updated>
     </task>
-    <option name="localTasksCounter" value="50" />
+    <task id="LOCAL-00050" summary="St Pierre">
+      <created>1542916605772</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1542916605773</updated>
+    </task>
+    <option name="localTasksCounter" value="51" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="116106000" />
+    <option name="totallyTimeSpent" value="118073000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="28" width="1366" height="740" extended-state="6" />
@@ -725,7 +736,6 @@
     <ignored-roots>
       <path value="$PROJECT_DIR$/views" />
     </ignored-roots>
-    <MESSAGE value="PowerUp stuff" />
     <MESSAGE value="All other seasons" />
     <MESSAGE value="Changed order for Yuxshi" />
     <MESSAGE value="Cards" />
@@ -750,7 +760,8 @@
     <MESSAGE value="Test push" />
     <MESSAGE value="Test push 2.0" />
     <MESSAGE value="Test push 442" />
-    <option name="LAST_COMMIT_MESSAGE" value="Test push 442" />
+    <MESSAGE value="St Pierre" />
+    <option name="LAST_COMMIT_MESSAGE" value="St Pierre" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -879,13 +890,6 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/views/team.ejs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="38" column="24" lean-forward="false" selection-start-line="38" selection-start-column="24" selection-end-line="38" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/components/header.ejs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="108">
@@ -924,7 +928,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/.env">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
+        <state relative-caret-position="0">
           <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="11" />
           <folding />
         </state>
@@ -963,26 +967,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/views/first.ejs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1602">
-          <caret line="89" column="63" lean-forward="false" selection-start-line="89" selection-start-column="63" selection-end-line="89" selection-end-column="63" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/components/footer.ejs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="342">
           <caret line="19" column="36" lean-forward="false" selection-start-line="19" selection-start-column="36" selection-end-line="19" selection-end-column="36" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/components/overlay.ejs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="6" column="27" lean-forward="false" selection-start-line="6" selection-start-column="27" selection-end-line="6" selection-end-column="27" />
           <folding />
         </state>
       </provider>
@@ -995,11 +983,37 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/components/overlay.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="6" column="27" lean-forward="false" selection-start-line="6" selection-start-column="27" selection-end-line="6" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/first.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="167">
+          <caret line="89" column="63" lean-forward="false" selection-start-line="89" selection-start-column="63" selection-end-line="89" selection-end-column="63" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/views/contacts.ejs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
+        <state relative-caret-position="399">
           <caret line="45" column="46" lean-forward="false" selection-start-line="45" selection-start-column="46" selection-end-line="45" selection-end-column="46" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/team.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="37" column="0" lean-forward="false" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
+          <folding>
+            <marker date="1542999819423" expanded="true" signature="129:23166" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
