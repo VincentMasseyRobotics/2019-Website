@@ -163,7 +163,7 @@ Courtesy of https://codepen.io/2xsamurai/pen/WwmjKQ*/
 
     box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.3);
 
-    height: 60px;
+    height: 78px;
     padding-top: 5px;
 }
 .nav-active #mlh-trust-badge {
@@ -178,7 +178,7 @@ Courtesy of https://codepen.io/2xsamurai/pen/WwmjKQ*/
 /* Navbar buttons */
 #nav-main a {
     color: rgb(10, 10, 10);
-    font-size: 1.2em;
+    font-size: 1.3em;
     text-decoration: none;
     margin-top: 1px;
 }
@@ -403,6 +403,22 @@ Courtesy of https://codepen.io/2xsamurai/pen/WwmjKQ*/
     transition: all 0.3s;
 }
 
+#stemday {
+    max-width: 400px;
+    width: 100%;
+    height: 100px;
+    float: right;
+    font-size: 1.8em;
+    transform: translateY(-50%);
+    color: white;
+    background: transparent;
+    border-color: #FFFFFF;
+}
+#stemday:hover {
+    background-color: white;
+    color: black;
+}
+
 /* Quote blocks */
 .quote-block {
     width: 100vw;
@@ -553,7 +569,7 @@ Courtesy of https://codepen.io/2xsamurai/pen/WwmjKQ*/
     padding-bottom: 2px;
 }
 
-/* Sponsorship */
+/* Our Sponsors */
 .sponsor-obj {
     padding-left: 10px;
     padding-right: 10px;
@@ -608,16 +624,28 @@ Courtesy of https://codepen.io/2xsamurai/pen/WwmjKQ*/
     padding-bottom: 20px;
 }
 
-@media screen and (max-width: 1200px){
-    #cover-video {
-        display: none;
+/* Larger Screens */
+@media screen and (min-width: 1000px) {
+    blockquote p {
+        font-size: 1.3em;
+    }
+
+    blockquote footer {
+        font-size: 0.9em;
+        font-weight: lighter;
+    }
+
+    #footer p {
+        font-size: 0.9em;
     }
 }
 
-@media screen and (max-width: 995px){
+/* Smaller Screens */
+@media screen and (max-width:999px){
+
 
     #time-left {
-        font-size: 3.5em !important;
+        font-size: 2.8em !important;
     }
 
     .page-caption {
@@ -666,26 +694,20 @@ Courtesy of https://codepen.io/2xsamurai/pen/WwmjKQ*/
         padding-bottom: 50px;
     }
 
-}
+    #stemday {
+        position: absolute;
+        max-width: 400px;
+        width: 90vw;
+        height: 50px;
 
-/* Larger Screens */
-@media screen and (min-width: 767px) {
-    blockquote p {
+        left: 0;
+        right: 0;
+        margin-left: auto;
+        margin-right: auto;
+
         font-size: 1.3em;
+        transform: translateY(250%);
     }
-
-    blockquote footer {
-        font-size: 0.9em;
-        font-weight: lighter;
-    }
-
-    #footer p {
-        font-size: 0.9em;
-    }
-}
-
-/* Smaller Screens */
-@media screen and (max-width:766px){
 
     .nav-docked {
         margin-top: 10px;
@@ -731,50 +753,6 @@ Courtesy of https://codepen.io/2xsamurai/pen/WwmjKQ*/
 
     #main-caption {
         font-size: 3em;
-    }
-}
-
-/* Sponsors - Small Screens */
-@media screen and (max-width:800px) {
-    .co-host img {
-        max-width: 95%;
-        margin-left: 10px;
-        margin-right: 10px;
-        vertical-align: middle;
-        padding-top: 20px;
-        padding-bottom: 20px;
-    }
-    .gold img {
-        max-width: 93%;
-        margin-left: 10px;
-        margin-right: 10px;
-        vertical-align: middle;
-        padding-top: 5px;
-        padding-bottom: 5px;
-    }
-    .silver img {
-        max-width: 70%;
-        margin-left: 10px;
-        margin-right: 10px;
-        vertical-align: middle;
-        padding-top: 5px;
-        padding-bottom: 5px;
-    }
-    .partner img {
-        max-width: 60%;
-        margin-left: 10px;
-        margin-right: 10px;
-        vertical-align: middle;
-        padding-top: 10px;
-        padding-bottom: 10px;
-    }
-    .bronze img {
-        max-width: 50% !important;
-        margin-left: 10px;
-        margin-right: 10px;
-        vertical-align: middle;
-        padding-top: 5px;
-        padding-bottom: 5px;
     }
 }
 
@@ -841,7 +819,7 @@ Courtesy of https://codepen.io/2xsamurai/pen/WwmjKQ*/
     resize: vertical;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1000px) {
     h3 {
         font-size: 2.7em;
     }
@@ -855,7 +833,7 @@ Courtesy of https://codepen.io/2xsamurai/pen/WwmjKQ*/
 }
 
 /* Only zoom on desktops */
-@media (min-width: 768px) {
+@media (min-width: 1000px) {
     .scaleonhover {
         -webkit-transition: transform 1s; /* Safari */
         transition: transform 0.5s;
@@ -883,68 +861,4 @@ Courtesy of https://codepen.io/2xsamurai/pen/WwmjKQ*/
     #cover-text h1 {
         font-size: 1.8em;
     }
-}
-
-/* Past sponsors */
-#edsby {
-    max-height: 115px;
-    max-width: 275px;
-    margin-left: 10px;
-    margin-right: 10px;
-    vertical-align: middle;
-    padding-top: 20px;
-    padding-bottom: 20px;
-}
-#ieee {
-    max-height: 115px;
-    max-width: 310px;
-    margin-left: 10px;
-    margin-right: 10px;
-    vertical-align: middle;
-    padding-top: 20px;
-    padding-bottom: 20px;
-}
-
-#digitalocean {
-    max-height: 400px;
-    width: 500px;
-    max-width: 80%;
-    margin-left: 10px;
-    margin-right: 10px;
-    vertical-align: middle;
-    padding-top: 20px;
-    padding-bottom: 20px;
-}
-
-#uwindsor {
-    max-height: 400px;
-    width: 600px;
-    max-width: 80%;
-    margin-left: 10px;
-    margin-right: 10px;
-    vertical-align: middle;
-    padding-top: 20px;
-    padding-bottom: 20px;
-}
-
-#stclair {
-    max-height: 400px;
-    width: 500px;
-    max-width: 80%;
-    margin-left: 10px;
-    margin-right: 10px;
-    vertical-align: middle;
-    padding-top: 20px;
-    padding-bottom: 20px;
-}
-
-#github {
-    max-height: 400px;
-    width: 470px;
-    max-width: 80%;
-    margin-left: 10px;
-    margin-right: 10px;
-    vertical-align: middle;
-    padding-top: 20px;
-    padding-bottom: 20px;
 }
