@@ -395,7 +395,8 @@ Courtesy of https://codepen.io/2xsamurai/pen/WwmjKQ*/
     display: inline-block;
 }
 #sponsors img {
-    max-width: 100%;
+    width: 100%;
+    max-width: 300px;
     max-height: 200px;
 
     padding: 10px;
@@ -528,6 +529,15 @@ Courtesy of https://codepen.io/2xsamurai/pen/WwmjKQ*/
     padding-top: 20px;
     font-size: 3em !important;
     text-align: center !important;
+}
+
+.gold img {
+    height: auto;
+    width: 100%;
+    max-width: 350px;
+    margin-left: 10px;
+    margin-right: 10px;
+    vertical-align: middle;
 }
 
 /* Footer */
