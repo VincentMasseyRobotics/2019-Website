@@ -1,17 +1,8 @@
 /* Font */
-@font-face {
-    font-family: Avenir;
-    src: url("../fonts/avenir.otf");
-}
-@font-face {
-    font-family: Avenir Next Bold;
-    src: url("../fonts/avenir-next-bold.ttf");
-}
-@import url('https://fonts.googleapis.com/css?family=Inconsolata');
-
+@import url('https://fonts.googleapis.com/css?family=Nunito+Sans');
 /* Global CSS */
 *{
-    font-family: Avenir, sans-serif;
+    font-family: 'Nunito Sans', sans-serif;
 }
 img {
     -webkit-user-drag: none;
@@ -41,7 +32,6 @@ h1 {
 }
 h3{
     font-size: 3.5em;
-    font-family: Avenir Next Bold;
 }
 h4{
     font-size: 2.4em;
@@ -203,7 +193,7 @@ Courtesy of https://codepen.io/2xsamurai/pen/WwmjKQ*/
 }
 #nav-main {
     z-index: 500;
-    font-family: Avenir Next Bold;
+    font-family: 'Nunito Sans', sans-serif;
     background-color: transparent;
     border-color: transparent;
 
@@ -319,7 +309,6 @@ Courtesy of https://codepen.io/2xsamurai/pen/WwmjKQ*/
 
 /* Subsection */
 .subsection h3 {
-    font-family: 'Avenir Next Bold';
     text-align: center;
 }
 .subsection h4 {
@@ -419,7 +408,7 @@ Courtesy of https://codepen.io/2xsamurai/pen/WwmjKQ*/
 
 }
 
-#sponsorship-package-group button {
+#sponsorship-button {
     max-width: 400px;
     width: 100%;
     height: 100px;
@@ -429,7 +418,7 @@ Courtesy of https://codepen.io/2xsamurai/pen/WwmjKQ*/
     background: transparent;
     border-color: #FFFFFF;
 }
-#sponsorship-package-group:hover button {
+#sponsorship-button:hover {
     background-color: white;
     color: black;
 }
@@ -491,7 +480,7 @@ Courtesy of https://codepen.io/2xsamurai/pen/WwmjKQ*/
 }
 .cover-content p {
     font-size: 1.6em;
-    font-family: Avenir;
+    font-family: 'Nunito Sans', sans-serif;
     text-align: left;
 }
 .spacer {
@@ -568,7 +557,7 @@ Courtesy of https://codepen.io/2xsamurai/pen/WwmjKQ*/
     height: 350px;
     background: rgb(240, 240, 240);
     color: rgb(70, 70, 70);
-    font-family: Avenir;
+    font-family: 'Nunito Sans', sans-serif;
 }
 #footer i {
     color: rgb(70, 70, 70);
@@ -793,7 +782,7 @@ Courtesy of https://codepen.io/2xsamurai/pen/WwmjKQ*/
 #faq h2 {
     text-align: left !important;
     font-size: 1.5em;
-    font-family: Avenir Next Bold;
+    font-family: 'Nunito Sans', sans-serif;
 }
 #faq p {
     text-align: left;
