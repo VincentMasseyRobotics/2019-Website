@@ -54,6 +54,10 @@ p {
     line-height: 1.4em;
 }
 
+.director {
+    margin: 20px;
+}
+
 /* Mouse
 
 Courtesy of https://codepen.io/2xsamurai/pen/WwmjKQ*/
@@ -385,7 +389,7 @@ Courtesy of https://codepen.io/2xsamurai/pen/WwmjKQ*/
     margin-bottom: 50px;
 }
 .sponsor {
-    height: 200px !important;
+
     vertical-align: middle;
     display: table-cell;
     text-align: center;
@@ -397,25 +401,35 @@ Courtesy of https://codepen.io/2xsamurai/pen/WwmjKQ*/
 #sponsors img {
     width: 100%;
     max-width: 300px;
-    max-height: 200px;
 
     padding: 10px;
 
     transition: all 0.3s;
 }
 
-#stemday {
+
+#sponsorship-package-group {
+
+    max-width: 400px;
+    width: 100%;
+    height: 200px;
+    transform: translateY(-50%);
+
+    float: right;
+
+}
+
+#sponsorship-package-group button {
     max-width: 400px;
     width: 100%;
     height: 100px;
     float: right;
     font-size: 1.8em;
-    transform: translateY(-50%);
     color: white;
     background: transparent;
     border-color: #FFFFFF;
 }
-#stemday:hover {
+#sponsorship-package-group:hover button {
     background-color: white;
     color: black;
 }
@@ -445,7 +459,7 @@ Courtesy of https://codepen.io/2xsamurai/pen/WwmjKQ*/
 
 /* Header */
 .header {
-    min-height: 550px;
+    min-height: 700px;
     height: 100vh;
     display: block;
     color: white !important;
@@ -509,6 +523,10 @@ Courtesy of https://codepen.io/2xsamurai/pen/WwmjKQ*/
     line-height: 1em;
 }
 
+.location {
+    font-size: 2em !important;
+}
+
 #time-left {
     font-weight: bold;
     font-size: 4em;
@@ -531,9 +549,14 @@ Courtesy of https://codepen.io/2xsamurai/pen/WwmjKQ*/
     text-align: center !important;
 }
 
+.scaledownSponsor {
+    max-height: 200px;
+    width: auto !important;
+}
+
 .gold img {
     height: auto;
-    width: 100%;
+    width: auto;
     max-width: 350px;
     margin-left: 10px;
     margin-right: 10px;
@@ -606,7 +629,7 @@ Courtesy of https://codepen.io/2xsamurai/pen/WwmjKQ*/
 }
 
 /* Larger Screens */
-@media screen and (min-width: 1000px) {
+@media screen and (min-width: 1100px) {
     blockquote p {
         font-size: 1.3em;
     }
@@ -621,9 +644,20 @@ Courtesy of https://codepen.io/2xsamurai/pen/WwmjKQ*/
     }
 }
 
+@media screen and (min-width:1000px) and (max-width: 1200px){
+    .cover-content {
+        margin:auto;
+        max-width: 600px !important;
+    }
+}
+
 /* Smaller Screens */
 @media screen and (max-width:999px){
 
+    #cover-spacer {
+        min-height: 275px;
+        height: 40vh;
+    }
 
     #time-left {
         font-size: 2.8em !important;
@@ -675,11 +709,13 @@ Courtesy of https://codepen.io/2xsamurai/pen/WwmjKQ*/
         padding-bottom: 50px;
     }
 
-    #stemday {
+    #sponsorship-package-group {
         position: absolute;
         max-width: 400px;
         width: 90vw;
         height: 50px;
+
+        transform: translateY(375%);
 
         left: 0;
         right: 0;
@@ -687,7 +723,6 @@ Courtesy of https://codepen.io/2xsamurai/pen/WwmjKQ*/
         margin-right: auto;
 
         font-size: 1.3em;
-        transform: translateY(250%);
     }
 
     .nav-docked {
@@ -703,10 +738,6 @@ Courtesy of https://codepen.io/2xsamurai/pen/WwmjKQ*/
         width: calc(100vw - 270px);
     }
 
-    .cover-content {
-        margin:auto;
-        width: calc(100vw - 270px);
-    }
 
     .cover-content h1 {
         font-size: 2.3em;
