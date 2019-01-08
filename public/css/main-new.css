@@ -590,7 +590,7 @@ Courtesy of https://codepen.io/2xsamurai/pen/WwmjKQ*/
 }
 
 /* Override default navbar breakpoint */
-@media (max-width: 1000px) {
+@media (max-width: 1200px) {
     .navbar-header {
         float: none;
     }

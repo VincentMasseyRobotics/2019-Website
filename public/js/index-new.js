@@ -162,7 +162,7 @@ $(document).ready(function () {
             $("html").css({"overflow-y": "visible"});
         }
 
-        if ($('body').width() < 1000) {
+        if ($('body').width() < 1200) {
 
             $("#accordion").removeClass("hidden");
             $(".accordionCont").removeClass("hidden");
