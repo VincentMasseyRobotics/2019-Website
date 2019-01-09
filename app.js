@@ -69,13 +69,17 @@ app.post('/contact', function(req, res) {
 
 app.get('*', function(req, res) {
 
-    res.render(req.path.slice(1), {}, function(err, html) {
-        if (err) {
-            res.render('404');
-        } else {
-            res.send(html);
-        }
-    });
+    try {
+        res.render(req.path.slice(1), {}, function (err, html) {
+            if (err) {
+                res.render('404');
+            } else {
+                res.send(html);
+            }
+        });
+    } catch (e) {
+        res.render('404');
+    }
 
 });
 
