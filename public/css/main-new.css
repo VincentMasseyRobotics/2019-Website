@@ -399,24 +399,34 @@ Courtesy of https://codepen.io/2xsamurai/pen/WwmjKQ*/
 
 #sponsorship-package-group {
 
-    max-width: 400px;
+    max-width: 380px;
     width: 100%;
     height: 200px;
     transform: translateY(-50%);
 
     float: right;
+}
 
+
+#sponsorship-package-group a, #sponsorship-package-group a:active {
+    color: white !important;
+    text-underline: white !important;
+}
+
+#sponsorship-package-group p {
+    font-size: 1.5em;
 }
 
 #sponsorship-button {
-    max-width: 400px;
+    max-width: 380px;
     width: 100%;
-    height: 100px;
+    height: 80px;
     float: right;
     font-size: 1.8em;
     color: white;
     background: transparent;
     border-color: #FFFFFF;
+
 }
 #sponsorship-button:hover {
     background-color: white;
