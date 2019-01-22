@@ -1,8 +1,8 @@
 /* Font */
-@import url('https://fonts.googleapis.com/css?family=Nunito+Sans');
+@import url('https://fonts.googleapis.com/css?family=Rajdhani:400,500,700');
 /* Global CSS */
 *{
-    font-family: 'Nunito Sans', sans-serif;
+    font-family: 'Rajdhani', sans-serif;
 }
 img {
     -webkit-user-drag: none;
@@ -193,7 +193,7 @@ Courtesy of https://codepen.io/2xsamurai/pen/WwmjKQ*/
 }
 #nav-main {
     z-index: 500;
-    font-family: 'Nunito Sans', sans-serif;
+    font-family: 'Rajdhani', sans-serif;
     background-color: transparent;
     border-color: transparent;
 
@@ -465,7 +465,7 @@ Courtesy of https://codepen.io/2xsamurai/pen/WwmjKQ*/
     margin-top: 0px !important;
     padding: 0 !important;
 
-    background-position: center;
+    background-position: top;
     background-size: cover;
     overflow: hidden;
 }
@@ -490,7 +490,7 @@ Courtesy of https://codepen.io/2xsamurai/pen/WwmjKQ*/
 }
 .cover-content p {
     font-size: 1.6em;
-    font-family: 'Nunito Sans', sans-serif;
+    font-family: 'Rajdhani', sans-serif;
     text-align: left;
 }
 .spacer {
@@ -567,7 +567,7 @@ Courtesy of https://codepen.io/2xsamurai/pen/WwmjKQ*/
     height: 350px;
     background: rgb(240, 240, 240);
     color: rgb(70, 70, 70);
-    font-family: 'Nunito Sans', sans-serif;
+    font-family: 'Rajdhani', sans-serif;
 }
 #footer i {
     color: rgb(70, 70, 70);
@@ -792,7 +792,7 @@ Courtesy of https://codepen.io/2xsamurai/pen/WwmjKQ*/
 #faq h2 {
     text-align: left !important;
     font-size: 1.5em;
-    font-family: 'Nunito Sans', sans-serif;
+    font-family: 'Rajdhani', sans-serif;
 }
 #faq p {
     text-align: left;
