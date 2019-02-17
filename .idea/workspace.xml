@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ea12e439-49ba-4a16-b8b7-7697e582d397" name="Default" comment="new logos">
+    <list default="true" id="ea12e439-49ba-4a16-b8b7-7697e582d397" name="Default" comment="Rearranged sponsors page">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/views/sponsors.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/views/sponsors.ejs" afterDir="false" />
     </list>
@@ -100,8 +100,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/views/sponsors.ejs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="234">
-              <caret line="48" column="15" selection-start-line="48" selection-start-column="15" selection-end-line="48" selection-end-column="15" />
+            <state relative-caret-position="46">
+              <caret line="263" column="37" lean-forward="true" selection-start-line="263" selection-start-column="37" selection-end-line="263" selection-end-column="37" />
             </state>
           </provider>
         </entry>
@@ -117,7 +117,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>cover</find>
       <find>content</find>
       <find>.header {</find>
       <find>sponsor</find>
@@ -147,9 +146,9 @@
       <find>&lt;i&gt;FIRST&lt;/i&gt;</find>
       <find>Rajdhani</find>
       <find>main-new.css</find>
+      <find>radix.png</find>
     </findStrings>
     <replaceStrings>
-      <replace>class=&quot;subsection-caption&quot;</replace>
       <replace>ON,</replace>
       <replace>&lt;h4 style=&quot;text-align: left; margin-top: 30px; font-weight: bold;&quot;&gt;</replace>
       <replace>&lt;h4&gt;</replace>
@@ -179,6 +178,7 @@
       <replace>FIRST</replace>
       <replace>Avenir</replace>
       <replace>main.css</replace>
+      <replace>https://www.activeindustrialsolutions.com/</replace>
     </replaceStrings>
     <dirStrings>
       <dir>$PROJECT_DIR$</dir>
@@ -227,9 +227,10 @@
     </include_path>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="y" value="56" />
-    <option name="width" value="1280" />
-    <option name="height" value="1024" />
+    <option name="x" value="3200" />
+    <option name="y" value="554" />
+    <option name="width" value="1366" />
+    <option name="height" value="768" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -237,7 +238,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -254,6 +254,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -347,14 +348,9 @@
       <workItem from="1549078775699" duration="8000" />
       <workItem from="1549494972859" duration="879000" />
       <workItem from="1549754012018" duration="2141000" />
-      <workItem from="1549756419822" duration="150000" />
-    </task>
-    <task id="LOCAL-00025" summary="Cards">
-      <created>1542571398341</created>
-      <option name="number" value="00025" />
-      <option name="presentableId" value="LOCAL-00025" />
-      <option name="project" value="LOCAL" />
-      <updated>1542571398341</updated>
+      <workItem from="1549756419822" duration="773000" />
+      <workItem from="1549763111626" duration="9000" />
+      <workItem from="1550362357731" duration="361000" />
     </task>
     <task id="LOCAL-00026" summary="FIRST page">
       <created>1542587711248</created>
@@ -692,17 +688,23 @@
       <option name="project" value="LOCAL" />
       <updated>1549755543549</updated>
     </task>
-    <option name="localTasksCounter" value="74" />
+    <task id="LOCAL-00074" summary="Rearranged sponsors page">
+      <created>1549756588754</created>
+      <option name="number" value="00074" />
+      <option name="presentableId" value="LOCAL-00074" />
+      <option name="project" value="LOCAL" />
+      <updated>1549756588766</updated>
+    </task>
+    <option name="localTasksCounter" value="75" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="159590000" />
+    <option name="totallyTimeSpent" value="160583000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="56" width="1280" height="1024" extended-state="6" />
-    <editor active="true" />
+    <frame x="3200" y="554" width="1366" height="768" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.38492706" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.37272727" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -718,7 +720,7 @@
       <window_info anchor="bottom" id="Version Control" order="10" weight="0.3281075" />
       <window_info active="true" anchor="bottom" id="Command Line Tools Console" order="11" visible="true" weight="0.32921347" />
       <window_info anchor="bottom" id="Messages" order="12" weight="0.32921347" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="13" visible="true" weight="0.36659193" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="13" visible="true" weight="0.5172956" />
       <window_info anchor="bottom" id="Database Changes" order="14" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -755,7 +757,6 @@
     <ignored-roots>
       <path value="$PROJECT_DIR$/views" />
     </ignored-roots>
-    <MESSAGE value="Fixed footer" />
     <MESSAGE value="Test push" />
     <MESSAGE value="Test push 2.0" />
     <MESSAGE value="Test push 442" />
@@ -780,7 +781,8 @@
     <MESSAGE value="s00per secret" />
     <MESSAGE value="Rolled back font" />
     <MESSAGE value="new logos" />
-    <option name="LAST_COMMIT_MESSAGE" value="new logos" />
+    <MESSAGE value="Rearranged sponsors page" />
+    <option name="LAST_COMMIT_MESSAGE" value="Rearranged sponsors page" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/app.js">
@@ -869,8 +871,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/views/sponsors.ejs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="48" column="15" selection-start-line="48" selection-start-column="15" selection-end-line="48" selection-end-column="15" />
+        <state relative-caret-position="46">
+          <caret line="263" column="37" lean-forward="true" selection-start-line="263" selection-start-column="37" selection-end-line="263" selection-end-column="37" />
         </state>
       </provider>
     </entry>
