@@ -54,36 +54,6 @@ $(document).ready(function () {
         });
     });
 
-    var awad = 0;
-
-    $('#awad').click(function() {
-        awad ++;
-
-        if (awad == 10) {
-            swal("You found it!", "Super secret Awad mode activated!", "success");
-
-            $('*').css('background', 'url("../images/awad.jpg")');
-            $('*').css('background-size', 'cover');
-            $('*').css('background-position', 'center');
-        }
-    });
-
-    var buffer = '';
-
-    $('#A').click(function() { buffer += 'A'; checkPuzzle(); });
-    $('#W').click(function() { buffer += 'W'; checkPuzzle(); });
-    $('#D').click(function() { buffer += 'D'; checkPuzzle(); });
-
-    function checkPuzzle() {
-        if (buffer == 'AWAD') {
-            swal("You found it!", "You are a true master hax0r", "success");
-
-            $('*').css('background', 'url("../images/jesusawad.jpg")');
-            $('*').css('background-size', 'cover');
-            $('*').css('background-position', 'center');
-        }
-    }
-
     function updateScroll(position) {
         switch (position) {
             case 'hidden': // Hide bar when detached from top
